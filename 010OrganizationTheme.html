@@ -1,0 +1,981 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../csharp.css"/>
+    <link rel="stylesheet" type="text/css" href="../master.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>10 Organization theme</h1>
+            </div>
+            <div class="panel-body">
+                <h2>10.1 THE PRINCE2 APPROACH TO THE ORGANIZATION THEME</h2>
+                <p>The purpose of the Organization theme is to define and establish the project’s structure of
+                    accountability and responsibilities (the who?).</p>
+                <h3>10.1.1 Three project interests</h3>
+                <p>The PRINCE2 principle of defined roles and responsibilities states that a PRINCE2 project will always
+                    have three primary categories of stakeholder, and the interests of all three must be satisfied if
+                    the project is to be successful. Figure 10.1 shows the three primary interests which make up the
+                    project board. PRINCE2 recommends that for completeness the project board should include
+                    representation from each of the business, user and supplier interests at all times.</p>
+                <ul>
+                    <li><strong>Business</strong> The products of the project should meet a business need which will
+                        justify the investment in the project. The project should also provide value for money.
+                    </li>
+                    <li><strong>User</strong> PRINCE2 makes a distinction between the business interests and the
+                        requirements of those who will use the project’s outputs. The user presence is needed to specify
+                        the desired outputs and ensure that the project delivers them. The senior user(s) will represent
+                        this stakeholder interest on the project board.
+                    </li>
+                    <li><strong>Supplier</strong> The creation of the project’s outputs will need resources with certain
+                        skills. The supplier viewpoint should represent those who will provide the necessary skills and
+                        produce the project product. The senior supplier(s) will represent this stakeholder interest on
+                        the project board.
+                    </li>
+                </ul>
+                <h3>10.1.2 The project management team</h3>
+                <h4>10.1.2.1 Project management team structure</h4>
+                <p>A project management team is a temporary structure specifically designed to manage the project to its
+                    successful conclusion. The structure allows for channels of communication to decision-making forums
+                    and should be backed up by role descriptions that specify the responsibilities, goals, limits of
+                    authority, relationships, skills, knowledge and experience required for all roles in the project
+                    management team. Figure 10.2 illustrates the structure of the project management team and its
+                    reporting lines.</p>
+                <figure>
+                    <img src="images/Figure10-001.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 10-001 The three project interests</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Figure10-002.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 10-002 Project management team structure</figcaption>
+                </figure>
+                <h4>10.1.2.2 Dealing with changes to the project management team</h4>
+                <p>Ideally, the project manager and project board members should stay with the project throughout its
+                    life. In practice, however, this may not always be possible and the project management team may
+                    change during the project. A clearly defined team structure, together with comprehensive role
+                    descriptions outlining the responsibilities for each role, should help to alleviate disruption
+                    caused by project management team changes.</p>
+                <p>The use of management stages also allows a smooth transition for changes to the project management
+                    team. Project roles should be reviewed for the next stage during the Managing a Stage Boundary
+                    process. The use of end stage reports and stage plans can help to ensure that any handover procedure
+                    is thorough and well documented. Although ideally the project executive and project manager should
+                    stay with the project throughout its lifecycle, a stage boundary provides an opportunity to hand
+                    over the role during the project if this is necessary.</p>
+                <h3>10.1.3 Working with the corporate organization</h3>
+                <h4>10.1.3.1 Centre of excellence</h4>
+                <p>The concept of a centre of excellence is that of a central standards unit, which defines standards
+                    (such as processes, templates and tools), and provides skills, training and possibly independent
+                    assurance functions to a number of projects.</p>
+                <p>A centre of excellence can be useful where:</p>
+                <ul>
+                    <li>Resource shortages, either in numbers or skills, make it difficult to supply people to perform
+                        project administration for each current project
+                    </li>
+                    <li>There are a number of small projects of a diverse nature that individually require only limited
+                        support from project support
+                    </li>
+                    <li>There is a large programme, requiring coordination of individual projects</li>
+                    <li>A large project requires several resources to handle project support roles.</li>
+                </ul>
+                <p>Refer to AXELOS’s Portfolio, Programme and Project Offices (OGC, 2008) for further information on the
+                    centre of excellence and its relationship to projects.</p>
+                <h2>10.2 THE GENERAL VIEW OF AGILE WITH RESPECT TO THE ORGANIZATION THEME</h2>
+                <p>There is a wide variety of structures and ways of organizing teams across the whole agile spectrum.
+                    Some agile approaches such as DSDM describe several roles with clearly defined levels of
+                    accountability and responsibility, whereas others such as Kanban define none. Scrum sits somewhere
+                    in between these two views as it has a few roles but these roles only apply to product delivery.</p>
+                <p>Agile puts a lot of emphasis on the way a team operates in that it should self-organize, be
+                    empowered, remain stable and have a large amount of autonomy. This creates a feeling of the team
+                    being collectively responsible for what it delivers, which contrasts with the view that the person
+                    in charge of the team is solely responsible. It also prefers the team members to be multi-skilled
+                    (i.e. they can offer more than one discipline) as much as possible.</p>
+                <h3>10.2.1 Common viewpoints of agile and roles</h3>
+                <p>Generally speaking the most well-known and well-defined agile roles operate at the product delivery
+                    level with relatively little reference made to roles which sit above this (e.g. sponsorship,
+                    technical strategy). A mature agile environment would have clearly defined roles that are
+                    responsible for such areas as vision and product roadmaps (e.g. a sponsor or a product manager). A
+                    summary of how agile views certain common roles is as follows:</p>
+                <ul>
+                    <li><strong>The Scrum master</strong> A common role in agile is that of the Scrum master, who is
+                        seen as a servant leader (see section 10.5.1). The Scrum master facilitates and coaches the
+                        Scrum process whilst removing impediments identified by the team working at the delivery level.
+                        It could be said that there is no equivalent role in PRINCE2. The team manager is the most
+                        obvious candidate, but in Scrum and in many agile belief systems the team does not need to be
+                        ‘managed’ per se – it needs to be ‘led and coached’. When using agile in a PRINCE2 environment
+                        there will need to be a team manager or equivalent who is ultimately accountable for the
+                        delivery of a team’s products, but this will need to be handled appropriately as described in
+                        section 10.4.1.
+                    </li>
+                    <li><strong>The product owner</strong> Another common and perhaps pivotal role in agile is that of
+                        the product owner, and this role is often regarded as the key stakeholder. It is difficult to
+                        draw a simple parallel with a PRINCE2 role as it depends on the number of delivery teams
+                        involved on a project. Even making a general rule is difficult as there may be many teams with
+                        many product owners. The product owner role is discussed in detail in section 10.5.2. The
+                        business ambassador role in DSDM is similar to this. 76 PRINCE2 Agile
+                    </li>
+                    <li><strong>The project manager (and team manager)</strong> There is a significant body of opinion
+                        in the agile community that suggests there is no longer a need for the project manager role.
+                        This view is quite significant and has arisen primarily for two reasons:
+                        <ul>
+                            <li>There is a view that any work can be carried out and managed as if it were BAU by
+                                breaking the work down to a size and a level of certainty that allows it to be handled
+                                as routine work.
+                            </li>
+                            <li>The term ‘manager’ is regarded as having negative connotations to many in the agile
+                                community as it infers a lack of trust in the people who make up the team – the belief
+                                being that they do not need a manager as they manage themselves collectively though
+                                self-organization.
+                            </li>
+                        </ul>
+                        PRINCE2 and PRINCE2 Agile see the project manager role as essential for a project, although in
+                        an agile context the behaviours, relationships and responsibilities may be emphasized
+                        differently.
+                    </li>
+                    <li><strong>The requirements engineer/business analyst</strong> The most common agile approaches
+                        give little prominence to a specific role for gathering the requirements for a project (e.g. a
+                        requirements engineer or business analyst). This role is usually undertaken by the product
+                        owner.
+                    </li>
+                </ul>
+                <h2>10.3 PRINCE2 AGILE GUIDANCE FOR THE ORGANIZATION THEME</h2>
+                <p>Adding the project management team structure from PRINCE2 to the delivery-based roles of agile
+                    creates a very powerful combination. In simple terms the synchronization between these two is quite
+                    straightforward in that PRINCE2 provides very little specific guidance at the delivery/technical
+                    level, and similarly the most common agile frameworks provide very little specific guidance with
+                    respect to the roles of project management and project governance/direction. This is described at
+                    the beginning of Chapter 3 of this guide and illustrated in Figure 3.1.</p>
+                <p>The ease at which PRINCE2 and agile can be blended together depends upon the nature of the work
+                    involved. As soon as a piece of work involves more than just a few people and is difficult (i.e. it
+                    needs to be run as a project), there is a requirement to have clearly defined roles and
+                    responsibilities so that the correct communication and decisions can be taken at the right time and
+                    at the appropriate level (see Table 10.1).</p>
+                <caption>Table 10.1 Combining PRINCE2 roles with agile roles</caption>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td>Type of work</td>
+                        <td>Size/scale of work</td>
+                        <td>Typical number of teams involved</td>
+                        <td>Ease of synchronization</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Routine</td>
+                        <td>Small</td>
+                        <td>One</td>
+                        <td>Not applicable. Handled as BAU.</td>
+                    </tr>
+                    <tr>
+                        <td>Difficult</td>
+                        <td>Small</td>
+                        <td>One</td>
+                        <td>Probably straightforward. The project manager and team manager roles are combined. The most
+                            common agile roles should be aligned easily.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Difficult</td>
+                        <td>Large</td>
+                        <td>Many (at least more than one)</td>
+                        <td>Probably requires a degree of care. The most commonly used agile roles need to be carefully
+                            aligned as there is more than one team and the alignment may not be obvious.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>In a mature agile environment the contrasting concepts of the roles needed for a project context and
+                    how they integrate with the roles that commonly appear in agile will probably have been aligned. The
+                    concept that there is a need to represent a customer and a supplier (i.e. someone who wants the
+                    product and someone who builds the product) in some form – roles as opposed to job titles – is the
+                    same in PRINCE2 as it is in agile. However, there are concepts which are different.</p>
+                <h2>10.4 DIFFERENT CONCEPTS REGARDING ROLES BETWEEN PRINCE2 AND AGILE</h2>
+                <p>PRINCE2 operates in any environment and on a project of any size from something simple and
+                    straightforward to something more challenging. Some commonly used agile concepts and roles may
+                    therefore need to be adjusted and the following guidance applies:</p>
+                <ul>
+                    <li><strong>Agile delivery teams prefer to be led and coached as opposed to managed</strong>. Much
+                        of the agile way of working is founded on teams being self-organized and collectively
+                        responsible for what they deliver. The Scrum master is seen as a coach and a servant leader to
+                        the team and not a manager of the team. PRINCE2 defines the role of team manager, which has
+                        clear accountability at the team/delivery level; the mapping of this to any role in an agile
+                        team is not straightforward and needs to be handled appropriately (see section 10.4.1).
+                    </li>
+                    <li><strong>Common agile guidance refers to a single product owner.</strong> If a project involves
+                        more than just a handful of people and needs to canvass the views of several stakeholders and
+                        perhaps conflicting views from the customer’s side, PRINCE2 Agile recommends taking a more
+                        blended view of the customer rather than listening to one single voice. This would mean engaging
+                        with the customer at different levels of authority and ensuring that all areas of expertise were
+                        included in the decision-making and communication process (see sections 10.4.1 and 10.5.2).
+                    </li>
+                    <li><strong>Common agile guidance does not have a project manager role.</strong> Unsurprisingly,
+                        PRINCE2 sees this role as mandatory on the basis that if a piece of work is difficult enough to
+                        be classed as a project then it requires someone to carry out the role of managing it.
+                    </li>
+                </ul>
+                <h3>10.4.1 Integrating the PRINCE2 team manager role into an agile delivery team</h3>
+                <p>A PRINCE2 team manager has a clearly defined set of responsibilities which cover five areas as shown
+                    in the left-hand column of Table 10.2. The table also shows how these responsibilities correspond to
+                    the most common agile roles.</p>
+                <p>Table 10.2 Mapping the responsibilities of a PRINCE2 team manager to the common agile roles (in this
+                    case Scrum)</p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td>Team manager: areas of responsibility</td>
+                        <td>Covered by the Scrum master?</td>
+                        <td>Covered by the product owner?</td>
+                        <td>Covered by the delivery team?</td>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>Planning</td>
+                        <td>No, but may facilitate and support</td>
+                        <td>Yes (prioritizing)</td>
+                        <td>Yes (sprint planning)</td>
+                    </tr>
+                    <tr>
+                        <td>Monitoring and managing progress</td>
+                        <td>Yes (by way of coaching the team to self-organize)</td>
+                        <td>Supports this through self-organization and by making the product backlog transparent
+                        </td>
+                        <td>Supports this through self-organization and by making the sprint backlog transparent
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Liaising with the project manager and other stakeholders</td>
+                        <td>Most likely to but not necessarily (see guidance in this section)</td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Managing issues and risks</td>
+                        <td>Yes</td>
+                        <td>No, but will identify them</td>
+                        <td>No, but will identify them</td>
+                    </tr>
+                    <tr>
+                        <td>Final acceptance and handover of products</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>No (but the team is responsible for delivering them)</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <p>The team manager role in PRINCE2 needs to integrate with the delivery team as shown in Figure
+                    10.3.</p>
+                <h3>10.4.2 Relationship types linking the project manager and the delivery team</h3>
+                <p>There are three options available when integrating an agile delivery team into a PRINCE2 project
+                    structure with respect to the team manager role. The key point is that the project manager needs to
+                    liaise with the team in the five areas of responsibility described earlier in Table 10.2 (see
+                    Appendix B for descriptions of roles). </p>
+                <p>PRINCE2 Agile does not have a preference for any one of the three options outlined in Table 10.3 as
+                    it will depend on the maturity of the delivery team and the relationship between the project manager
+                    and the delivery team. It may be that the project board, who are ultimately accountable for the
+                    project, express a preference or make a decision.</p>
+                <figure>
+                    <img src="images/Figure10-003.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 10-003 Integrating the team manager role into an agile delivery team</figcaption>
+                </figure>
+                <caption>Table 10.3 Integrating the project manager with the delivery team – options to consider
+                </caption>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td>Option</td>
+                        <td>Considerations</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Leave the delivery team roles as they are</td>
+                        <td>
+                            <ul>
+                                <li>Ensure that everyone is aware of who is responsible for each of the five areas.
+                                </li>
+                                <li>Role names remain the same (e.g. product owner, Scrum master).</li>
+                                <li>No-one is referred to as the team manager.</li>
+                                <li>The project manager will liaise with more than one person in the team.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Leave the delivery team roles as they are but identify a single point of contact for the
+                            project manager
+                        </td>
+                        <td>
+                            <ul>
+                                <li>The single point of contact could be anyone from the team but is most likely to be
+                                    the Scrum master and may be the product owner.
+                                </li>
+                                <li>Role names remain the same.</li>
+                                <li>The project manager will liaise with one person in the team, who will be able to
+                                    provide the project manager with the information they need.
+                                </li>
+                                <li>The single point of contact may, or may not, be referred to as the team manager.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Create a team manager role in the delivery team</td>
+                        <td>
+                            <ul>
+                                <li>This role would cover all of the areas of responsibility in Table 10.2.</li>
+                                <li>This is best achieved if the team manager is highly collaborative and facilitates
+                                    the self-organization of the team – the team manager remains ultimately accountable
+                                    for the outputs in these areas but not necessarily for creating the outputs.
+                                </li>
+                                <li>The project manager will liaise with the team manager</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>These three options could be said to represent a range from ‘very agile’ (at the top) to ‘less agile’
+                    (at the bottom) and could be a sign of how mature an organization is with respect to the agile ways
+                    of working. However, each project has its own set of unique circumstances and the choice should be
+                    made according to those circumstances.</p>
+                <p>The relationship between the project manager and the delivery team is one of the most important areas
+                    to get right when using PRINCE2 and agile together. This may need to be defined as part of a work
+                    package, and it should be defined in the project initiation documentation as this is where the
+                    project board (and perhaps the project manager) will need to agree on an appropriate interface
+                    between the project manager and the team manager/delivery team. Potentially, the relationship may be
+                    different from team to team.</p>
+                <p>How to integrate the responsibilities of the team manager into an agile delivery team is ultimately
+                    about balancing the needs of the project board and the project manager to enable them to direct and
+                    manage the project whilst at the same time creating an environment for the teams that motivates and
+                    empowers the people delivering the products.</p>
+                <h3>10.4.3 The composition of a delivery team</h3>
+                <p>There is no mention of the composition of the delivery team in PRINCE2. This is for two reasons.
+                    Firstly, PRINCE2 operates in a variety of situations and industry sectors; therefore defining
+                    delivery teams is difficult as there are a wide variety of disciplines to cover. Secondly, the
+                    technical delivery aspects of a project are separate from project management and project direction.
+                    All that is required by PRINCE2 is the clarification of the relationship between the project manager
+                    and the team manager. Agile does define the roles in and around a delivery team, and they would
+                    usually represent some or all of the following:</p>
+                <ul>
+                    <li>Someone to lead the team</li>
+                    <li>Someone from the customer (or at least someone to represent the customer)</li>
+                    <li>A team to create the product</li>
+                    <li>Someone to assure the quality of the product</li>
+                    <li>Someone to coach the team (which includes coaching them in agile).</li>
+                </ul>
+                <p>How many of each role will vary according to the needs of the delivery team. One person could do more
+                    than one role (e.g. lead the team and coach it). Several people could carry out one role (e.g.
+                    create the product). Some roles may be peripheral to the delivery team (e.g. from customer areas
+                    that provide relatively minor input). A typical guide for the size of a team is seven, plus or minus
+                    two. It may be better for delivery teams that are larger than this to be divided into more than one
+                    team.</p>
+                <p>Many agile roles appear to assume an IT context: therefore role descriptions can look very much like
+                    IT roles, using terms such as ‘developer’ and ‘business analyst’. There is usually very little
+                    mention of roles such as engineer, designer, editor etc. PRINCE2 Agile provides the following set of
+                    generic roles that can be used if desired (see Appendix B):</p>
+                <ul>
+                    <li>Customer subject matter expert</li>
+                    <li>Customer representative (usually outside the delivery team)</li>
+                    <li>Supplier subject matter expert</li>
+                    <li>Supplier representative (usually outside the delivery team)</li>
+                    <li>Delivery team quality assurance (QA).</li>
+                </ul>
+                <h4>10.4.3.1 Multi-skilled people and roles</h4>
+                <p>Many in the agile community promote the idea of teams made up of multi-skilled people, where any team
+                    member can do any other team member’s job. Others agree with having more than one skill, but prefer
+                    some degree of specialization. There is very little appetite for single-function roles in an agile
+                    delivery team, as this makes self-organizing and the ability to respond to delays very
+                    difficult.</p>
+                <p>Organizations developing their agile capability and looking to broaden people’s skill-sets need to
+                    allow enough time for this transition to take place. When using PRINCE2 with agile it is recommended
+                    to aim for delivery teams that are made up of ‘generalizing specialists’ (sometimes referred to as
+                    ‘T-shaped’ people as they have a lot of depth in one particular skill, and a breadth of knowledge,
+                    to a limited degree, in other skills). This creates a team where everyone has a core skill, but they
+                    also have the ability to help out other team members (to some degree) in other areas of
+                    expertise.</p>
+                <p>Further to this, the whole project management team needs to be set up in such a way that any
+                    stakeholder who needs to contribute is aware of their role (e.g. to provide information or to assure
+                    deliverables). Various techniques such as RACI (see box) exist for analysing stakeholder involvement
+                    – assessing the contribution, commitment and support levels of stakeholders in terms of whether or
+                    not their involvement is critical, desirable or non-essential. Such techniques can be used to ensure
+                    that the project management team is set up correctly and that the communication management strategy
+                    complements this. Ultimately, all of this will be approved by the project board.</p>
+                <p>It is essential that the delivery teams are clearly empowered, as they will be responsible for
+                    self-organizing and delivering products that are fit for purpose. Ensuring that the people in the
+                    delivery teams are appropriately trained in agile may also be needed. A lot of agile training is
+                    focused on specific delivery roles such as the product owner, the Scrum master and the agile coach,
+                    and corresponding qualifications also exist.</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Definition">
+                    <div style="width: 80px; height: 80px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                             class="bi bi-book" viewBox="0 0 16 16">
+                            <path
+                                    d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        Definition: RACI<br> A widely used technique to define who is responsible, for what, on a
+                        project or with a process. RACI typically stands for (who is) Responsible, Accountable,
+                        Consulted and Informed with respect to certain deliverables or steps in a process. There are
+                        many variations of RACI that can be used.
+                    </div>
+                </div>
+                <p>In some senses, PRINCE2 has no interest in the inner workings of a delivery team. It uses the work
+                    package and the Managing Product Delivery process to ensure that the required product is delivered.
+                    However, to fully embrace agile, the PRINCE2 project team, and particularly the project manager,
+                    need to be aware of how people using agile work and behave – specifically at the delivery level.
+                    They must not meddle or interfere with the delivery teams as this is likely to be
+                    counter-productive, but the project manager needs to understand how agile is helping the project:
+                    this applies across the project as a whole and not just at the delivery level.</p>
+                <p>A PRINCE2 project manager using agile will be interested in how the delivery teams are working when
+                    liaising with their team managers. Therefore, they need to be aware of the delivery team roles and
+                    their typical behaviours.</p>
+                <h3>10.4.4 Single-team project structure</h3>
+                <p>If a project is small enough to be addressed by one team where the roles of project manager and team
+                    manager are combined, an expected configuration of the customer and supplier roles would look
+                    something like that shown in Figure 10.4.</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                    <div style="width: 80px; height: 80px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                             class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                             aria-label="Tip:">
+                            <path
+                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        Tip<br> An independent quality assurance (QA) role means that there is a separation of duties
+                        and people don’t ‘mark their own homework’ (hence the need for the role).
+                    </div>
+                </div>
+                <figure>
+                    <img src="images/Figure10-004.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 10-004 An example of an organizational set-up for a project with one team
+                    </figcaption>
+                </figure>
+                <p>Notes:</p>
+                <ol>
+                    <li>Supplier subject matter experts (SSMEs) would typically be full-time.</li>
+                    <li>Customer subject matter experts (CSMEs) may be full-time or part-time depending on their role
+                        within the organization as a whole (i.e. they may have a ‘day job’ as well as a role on a
+                        project).
+                    </li>
+                    <li>On a single-team project the high-level view of the customer could be covered entirely by the
+                        senior user role, although other customer representatives at this level may be formally
+                        involved.
+                    </li>
+                    <li>The detailed view could be covered by one CSME, although more than one CSME on a small project
+                        is quite normal when using PRINCE2 Agile. This will typically be similar to the product owner
+                        role, although in a basic agile context there is usually only one product owner.
+                    </li>
+                    <li>Delivery team quality assurance may be the responsibility of just one person or it may be split
+                        into two roles (one to cover the customer side and one to cover the supplier side).</li>
+                </ol>
+                <h3>10.4.5 Multiple-team project structure</h3>
+                <p>If a project has more than one delivery team there will be one project manager and more than one team
+                    manager, and a typical configuration of the customer and supplier roles would look something like
+                    that shown in Figure 10.5.</p>
+                <figure>
+                    <img src="images/Figure10-005.PNG" style="width: 100%;" />
+                    <figcaption>Fig 10-005 An example of an organizational set-up for a project with many teams</figcaption>
+                </figure>
+                <p>Notes:</p>
+                <ol>
+                    <li>There may be more than one person wishing to contribute to the high-level customer view as a
+                        senior user. In a mature agile environment, if there is one person ultimately responsible at
+                        this level, then this is sometimes referred to as a ‘super product owner’, ‘senior product
+                        owner’ or ‘product manager’. The senior user role does not typically map to the role of product
+                        owner found in a delivery team.</li>
+                    <li>A customer representative may wish to contribute to both the high-level and the detailed-level
+                        understanding of a project.
+                    </li>
+                    <li>A customer subject matter expert (CSME) is the focal point for all information about the
+                        customer at the detailed level. They act as a conduit to the delivery team for all views that
+                        need to be taken into consideration from any customer representative who is impacted or who may
+                        wish to contribute. The high-level view is provided by the senior user.
+                    </li>
+                    <li>A customer representative may contribute to more than one team at the detailed level.</li>
+                    <li>A team may have more than one CSME. It may be appropriate to determine any reporting lines
+                        between CSMEs in the same team but usually this is not necessary.</li>
+                    <li>Customer representatives need to have clearly assigned roles on a project, but their involvement
+                        is significantly less than that of a CSME. They usually contribute specific knowledge from
+                        certain areas.
+                    </li>
+                    <li>A coach may exist as a person carrying out a specific role in a delivery team or the role could
+                        be covered by a person who is also carrying out another role for the team (e.g. team manager).
+                        Alternatively, a coach may work with several teams and be provided by project support.
+                    </li>
+                    <li>QA may be split into customer QA (CQA) and supplier QA (SQA) and could be carried out by people
+                        from outside the delivery teams.
+                    </li>
+                    <li>A CSME could also carry out CQA.</li>
+                </ol>
+                <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                    <div style="width: 80px; height: 80px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                             class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                            <path
+                                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                        </svg>
+                                    </div>
+                    <div class="ml-3">
+                        Tip<br> Customer QA and supplier QA are split into two so that it is possible to check that:
+                        <ul>
+                        <li>The
+                        thing has been built right</li>
+                        </ul>
+                        and <ul>
+                        <li>The right thing has been built.</li></ul>
+                    </div>
+                </div>
+                <h3>10.4.6 Tailoring the PRINCE2 roles</h3>
+                <p>Outside the delivery teams, PRINCE2 has agreed and identified roles and responsibilities. All of the
+                    roles apply when using agile and their responsibilities do not need to change. However, each role
+                    would need to be conversant with the fundamentals of working in an agile way. Additional guidance is
+                    provided in Table 10.4.</p>
+                <h2>10.5 AGILE CONCEPTS AND TECHNIQUES</h2>
+                <h3>10.5.1 Servant leadership</h3>
+                <p>This concept or philosophy is usually advocated as a best practice for the person ‘leading’ a team at
+                    the delivery level in an agile environment. The term ‘servant leader’ originates from books and
+                    essays written by Robert K. Greenleaf in the 1970s, although it could be said to date back to
+                    ancient history.</p>
+                <h4>10.5.1.1 The basics</h4>
+                <p>Although servant leadership can be used anywhere it is generally aimed at corporate or organizational
+                    leadership, or those who ‘lead’ as opposed to those who ‘manage’. The term is referenced by the
+                    Scrum method (although the term is not explained); through the wide adoption of Scrum, servant
+                    leadership now has widespread adoption too as a concept, although how far it can be adopted is often
+                    affected by existing organizational constraints.</p>
+                <p>In simple terms the idea of servant leadership is that the best way to lead a team is to be a servant
+                    to the team. Therefore, as a leader of a team you would put team members’ needs above yours. It
+                    would be your role to ensure that everyone is looked after, that they are okay and they have what
+                    they need. This in turn creates a happier, more effective and productive team, and performance
+                    improves accordingly.</p>
+                <p>When integrating agile with PRINCE2 this concept needs to be handled carefully, as it could be said
+                    that some of PRINCE2 would be in conflict with the philosophy of servant leadership. An example of
+                    this is where a team manager has clearly defined responsibilities such as planning and monitoring
+                    the team’s work. Agile and servant leadership focus on everyone in the team as a whole being
+                    responsible for how they work and what they produce. Therefore, creating a role for this will
+                    automatically create a situation where the team may not feel that it is truly responsible. Even the
+                    title of the role itself can produce this effect. However, PRINCE2 does not have a preferred style
+                    of control and leadership, so it can support any style and this includes servant leadership.</p>
+                <h4>10.5.1.2 Further information</h4>
+                <p>The thing to focus on when using servant leadership with PRINCE2 is to create an environment for the
+                    team where they do feel truly empowered and responsible for the way they work and the products they
+                    produce, even if the team manager still remains ultimately responsible. This can be achieved by the
+                    team manager leading by example and working collaboratively with the team to achieve this.</p>
+                <p>When using PRINCE2 in an agile context, someone still needs to manage and lead the team, but by using
+                    the style of a servant leader their focus will primarily (but not solely) be on helping and
+                    supporting the team (i.e. serving). Therefore, leadership of the team is a secondary focus and comes
+                    from how well the primary focus is achieved.</p>
+                <caption>Table 10.4 Guidance on the PRINCE2 roles and possible agile mappings</caption>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <td>Role</td>
+                        <td>Overview of the tailoring required and further considerations</td></tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Project board</td>
+                        <td>Needs to be fully conversant with the agile way of working and needs to understand:<br>
+                            <ul>
+                                <li>The fact that everything might not get delivered.</li>
+                                <li>The implications of the degree of agility being used – the project board needs to
+                                    authorize the intended level of use of agile and ensure that it does not create
+                                    unnecessary levels of risk. Risks can be created by using too much agile, or not
+                                    enough agile, in relation to the project environment.
+                                </li>
+                            </ul>The mixture of PRINCE2 and agile is a coherent blend and they do not exist in parallel.
+                            <ul>
+                                <li>The different emphasis on self-organizing and communications techniques will
+                                    necessitate that the appropriate boundaries are correctly set up to enable
+                                    management by exception, giving the project board the appropriate level of control
+                                    and the project manager and the delivery teams the necessary empowerment and trust.
+                                </li>
+                                <li>The general level of agile knowledge within the organization and how this will
+                                    impact the project (e.g. agile knowledge of the people representing the customer on
+                                    a project).
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Executive</td>
+                        <td>Needs to be familiar with the term ‘value’ as this will be frequently used by the project
+                            management team and the delivery teams. The term is often used interchangeably with the word
+                            ‘benefits’ and although they are similar in how they can be used, they are not identical.<br>
+                            Knowledge of how PRINCE2 integrates with Management of Value (MoV) would be beneficial.<br>
+                            This role broadly maps to agile environments that refer to a role of ‘sponsor’.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Senior user(s)</td>
+                        <td>This role is unlikely to map to the common agile role of product owner, although it may
+                            function as a ‘super product owner’ under some circumstances. It is an important role in
+                            PRINCE2 Agile, in that it is the role that is ultimately responsible for the prioritization
+                            of the work being delivered in order to maximize value and realization of the customer’s
+                            goals.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Senior supplier(s)</td>
+                        <td>No further guidance is required to that already mentioned for the project board above and the
+                            role description in Appendix B.</td>
+                    </tr>
+                    <tr>
+                        <td>Project manager</td>
+                        <td>Needs to be fully conversant with the agile way of working and how to manage a project using
+                            agile. Further to this the project manager is responsible for ensuring that the use of agile
+                            is happening in the right way and that the project management team is receiving the
+                            appropriate coaching and support.<br>
+                            The project manager needs to be seen as a friend of the
+                            delivery teams and not a figure of authority. This role does not naturally correspond to the
+                            Scrum master.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Team manager</td>
+                        <td>This is an important role when using PRINCE2 in an agile context and represents the main
+                            interface between project management and product delivery.<br>
+                            See section 10.4.1 for a detailed
+                            explanation of the tailoring required.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Change authority</td>
+                        <td>Will need to be aware of the agile way of working (e.g. the focus of tolerances set for the
+                            project will be in the form of flexing what is being delivered, and the delivery teams will
+                            be empowered and self-organizing).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Project assurance</td>
+                        <td>This has an important role to play in ensuring that management by exception is operating
+                            correctly to support the agile way of working. They need to assure that the project manager
+                            is being agile and applying agile in the appropriate way.<br>
+                            They also need to assure that the
+                            delivery teams are using agile appropriately, and this would include the team manager.<br>
+                            They
+                            may wish to put particular emphasis on the interface between the project manager and the
+                            team manager role as this may have been set up with a particularly agile emphasis or a more
+                            formal emphasis. Either way, it needs to be functioning in the most effective way possible
+                            for each team (see section 10.4.2).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Project support</td>
+                        <td>May be responsible for the provision of agile coaching to the project management team or at
+                            the delivery team level unless the delivery team already has someone in that role.
+                        </td>
+                    </tr>
+                    <tr><td>Corporate and programme management</td>
+                        <td>Will need to be aware of the agile way of working (e.g. the use of empowering the project
+                            management team and frequent releases of products to enable and provide benefits). They may
+                            also be looking at the organization as a whole and how the agile way of working can be
+                            applied or improved.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>In some cases different terminology is used to achieve the servant-leadership philosophy (e.g.
+                    ‘facilitative’ leadership or ‘collaborative’ leadership).</p>
+                <p>A lot of the thinking behind servant leadership is that people feel more valued when they work as
+                    equals and share responsibility. This is in contrast to autocratic, dictatorial or authoritarian
+                    leadership where those in charge enjoy the feeling of power and the kudos that comes with it.</p>
+                <p>Servant leadership will fit into any PRINCE2 Agile role where leadership skills are needed (e.g.
+                    project board, project manager and team manager) although certain areas of responsibility may need
+                    to be defined. An example of this would be to clarify the difference between leadership and
+                    management. Leadership normally refers to such things as vision, direction and the ability to
+                    inspire. Management focuses more on the work to be done and the people doing the work. There is an
+                    overlap between these two, as leaders sometimes need to manage people, and managers always need to
+                    lead in some form.</p>
+                <p>Some of the agile behaviours focus on collaboration, respect and honesty, which is very much in
+                    keeping with the servant-leader philosophy; these behaviours would be typical of an agile team
+                    manager managing a team with a servant-leader style.</p>
+                <p>It is possible for a team to naturally select its own leader/Scrum master, and this may be anyone
+                    from the team – not necessarily the most senior or most experienced.</p>
+                <h4>10.5.1.3 Hints that may prove useful</h4>
+                <p>A team manager running a team in a servant-leader style would create an environment to help grow and
+                    develop team members. The team manager would be a team player, always coaching the team and building
+                    consensus along the way. The same applies to a project manager in the wider context of a project
+                    management team. Creating a culture where people are comfortable to ask for help, and when they do
+                    it is welcomed, is a significant part of creating the right environment.</p>
+                <p>To help further understand the typical attributes a servant leader would need, the following lists
+                    may be of use.</p>
+                <p>From Servant Leadership: A Journey into the Nature of Legitimate Power and Greatness by Robert K.
+                    Greenleaf (2002):</p>
+                <ul>
+                    <li>Listening</li>
+                    <li>Empathy</li>
+                    <li>Building community</li>
+                    <li>Healing</li>
+                    <li>Awareness</li>
+                    <li>Commitment to the growth of people</li>
+                    <li>Foresight</li>
+                    <li>Persuasion</li>
+                    <li>Stewardship</li>
+                    <li>Conceptualization.</li>
+                </ul>
+                <p>Ann McGee-Cooper and Duane Trammell summarized servant leadership as:</p>
+                <ul>
+                    <li>Listen without judgement</li>
+                    <li>Be authentic</li>
+                    <li>Build community</li>
+                    <li>Share power</li>
+                    <li>Develop people</li>
+                    <li>Co-create shared vision.</li>
+                </ul>
+                <p>These attributes are ideal for any team, as this way of working builds on the behaviours that
+                    personify agile, by creating empowered and creative teams working in an iterative style and
+                    responding to change. Involving</p>
+                <h4>10.5.1.4 Context is important</h4>
+                <p>Servant leadership is a very powerful concept, and how far to utilize this depends on many factors.
+                    One such factor affecting how effective this can be would depend on the context in which it was
+                    being used. How open is a team, department or organization to this style of working? A mature agile
+                    organization would use servant leadership and self-organization a lot. Another factor that could
+                    limit servant leadership is that a project team is temporary and therefore needs time to grow and
+                    bond, whereas an existing BAU team that is stable and has been together over a long period may have
+                    evolved its own way of working.</p>
+                <p>Ultimately, PRINCE2 can support as much or as little of this style of working as is desired because
+                    it has no preferred style. There is nothing in PRINCE2 that limits this.</p>
+                <h3>10.5.2 How to incorporate the wider customer view and the product owner role</h3>
+                <p>In agile, the customer view is often represented by a role called the product owner. It is one of the
+                    three Scrum roles and is hugely significant in agile terms: executing this role correctly is
+                    critical to the successful use of agile because this role is so commonly used. This may require an
+                    individual to be trained in how to be a product owner, or they may need the support of a proxy who
+                    has the appropriate skills.</p>
+                <p>However, there is a paradox with this role in that it is simple to define it and assign someone to
+                    it, but this simplicity needs to be tailored when used in a project context – even when working in a
+                    mature agile environment. The reason for this is that the product owner role is commonly associated
+                    with a scenario where there is one team, one product, and work is ongoing such as in a BAU
+                    environment. When using the product owner role in more challenging situations adjustments will
+                    probably need to be made.</p>
+                <h4>10.5.2.1 The basics</h4>
+                <p>In simple terms the product owner is the ‘voice of the customer’ and this role covers the following
+                    responsibilities as described in the Scrum Guide (see Appendix H):</p>
+                <ul>
+                    <li>Clearly expressing product backlog items</li>
+                    <li>Ordering the items in the product backlog to best achieve goals and missions</li>
+                    <li>Optimizing the value of the work the development team performs</li>
+                    <li>Ensuring that the product backlog is visible, transparent and clear to all, and shows what the
+                        Scrum team will work on next</li>
+                    <li>Ensuring the development team understands items in the product backlog to the level needed.</li>
+                </ul>
+                <p>Other definitions of the product owner responsibilities in more mature agile environments include the
+                    product vision, creating product roadmaps and business case justification.</p>
+                <p>In terms of their attributes and style of working, a product owner should be:</p>
+                <ul><li>Very knowledgeable of the customer domain</li>
+                    <li>An effective communicator</li>
+                    <li>Able to canvass the opinions of key stakeholders</li>
+                    <li>Empowered</li>
+                    <li>Clear on the vision for the product</li>
+                    <li>Able to define requirements and user stories</li>
+                    <li>Able to define what a successful outcome would look like</li>
+                    <li>Available at all times to the delivery team.</li>
+                </ul>
+                <p>Ultimately, the product owner has the final say on everything to do with the final product. They own
+                    it, and they are solely accountable for it. This means that the product owner has the authority to
+                    decide what goes into the product, and they are not accountable to anyone else with respect to
+                    having to justify it.</p>
+                <h4>10.5.2.2 The simplicity of the product owner role</h4>
+                <p>Crucial to this role, as commonly expressed in agile frameworks, is that there is only one person
+                doing this. This creates the simplicity which many people (e.g. from the technical delivery side) find
+                attractive as it creates a very clear single point of contact and a single version of the truth.</p>
+                <p>The simplicity of the product owner role can work well in a straightforward BAU context, but there
+                    are limitations when working on a project.</p>
+                <h4>10.5.2.3 Limitations due to project size</h4>
+                <p>Project teams (small or large) would typically require a wider and more representative view of a
+                    customer’s interests than are perhaps required in a BAU situation.</p>
+                <p>It may not be appropriate to have one person from the customer side responsible for the many views
+                    and angles that exist on a project. There may be high-level views held by certain stakeholders that
+                    need to be taken into account (e.g. strategic), along with other more detailed views from a
+                    different set of stakeholders (e.g. to do with how the product looks).</p>
+                <h4>10.5.2.4 Limitations due to size of the role in a project context</h4>
+                <p>It is one thing to assign several responsibilities and attributes to a role, but it is something
+                    different altogether to find an individual who can carry out that role effectively. The product
+                    owner role contains some responsibilities that even in isolation may require advanced levels of
+                    skill and may form a discipline (or role) in its own right, in the context of a project.</p>
+                <p>Gathering requirements, defining them, facilitating communication with the wider customer community
+                    of project stakeholders (which would include many contrasting perspectives) and creating buy-in to
+                    the way forward is a significant undertaking for even the most experienced individual.</p>
+                <p>This can be too much for one person as it involves a lot of work, and some of this work involves a
+                    high degree of technical skill (e.g. requirements engineering).</p>
+                <p>A project requires many customer roles in order to correctly reflect the customer’s view. A single
+                    product owner may not be the best way to achieve this.</p>
+                <h4>10.5.2.5 Representing the customer view on a project</h4>
+                <p>A one-team, one-product BAU situation can operate very effectively with one product owner. More
+                    challenging work needs to be structured as Figures 10.4 and 10.5 show. Most of the common agile
+                    frameworks do not have the structures to accommodate this naturally, although DSDM is an exception
+                    to this general rule and mature agile organizations will have created their own.</p>
+                <p>The PRINCE2 Agile role of customer subject matter expert (CSME) is similar to product owner if it is
+                    inside a delivery team, and it can still be referred to as ‘product owner’ if the team already uses
+                    and understands this term and what the role entails. However, in a PRINCE2 Agile context this role
+                    would take the general function of providing the customer’s voice at the detailed level. The senior
+                    user would be responsible for the wider and higher-level customer view and also be ultimately
+                    accountable for what goes into the final product. The executive would be responsible for the
+                    business case.</p>
+                <h4>10.5.2.6 Specialist role to support capturing the customer view</h4>
+                <p>Another option is to have a role that can help to define the project’s products (often referred to as
+                    requirements) by acting as a catalyst between the customer view and the supplier view. Roles such as
+                    a requirements engineer or business analyst would be examples of this. The role could work inside the delivery teams, the
+                    project management team or both. This role would be responsible for some or all of the following:</p>
+                <ul>
+                    <li>Acting as a translator, as both the customer and supplier will have their own terminology, and
+                        then ensuring that both parties understand the requirements
+                    </li>
+                    <li>Gathering and correctly writing and defining requirements/user stories along with quality
+                        criteria and acceptance criteria</li>
+                    <li>Helping where appropriate by providing support with testing from the customer perspective ●●
+                        Ensuring that requirements prioritization is appropriate (this includes being prepared to
+                        challenge decisions where necessary)</li>
+                    <li>Creating and evolving models and supporting documentation </li>
+                    <li>Facilitating discussions and running workshops with the wider stakeholder community </li>
+                    <li>Contributing to information held in the business case</li>
+                    <li>Using techniques to ensure that requirements align with strategic and/or project objectives</li>
+                    <li>Liaising with the senior user, customer SMEs and other customer stakeholders.</li>
+                </ul>
+                <h4>10.5.2.7 Getting a blended view</h4>
+                <p>It is very important to represent the customer view appropriately on a PRINCE2 project. The product
+                    owner is a very powerful concept but it needs to be adjusted to work in a project context. To create
+                    a fully representative view of the customer at all levels and in all areas affected by a project, it
+                    is important to build a blended and comprehensive view of the customer needs and perhaps involve
+                    specialists to help with this, such as a requirements engineer or a business analyst. It is
+                    essential to do this as well as possible as the customer will be impacted by the final product, and
+                    they are ultimately justifying the investment.</p>
+                <p>On a PRINCE2 project the senior user is ultimately responsible for the appropriateness of the
+                    delivered product, and the executive is responsible for the justification of the project itself. The
+                    product owner role as commonly defined in agile (e.g. in Scrum) operates in the best way from inside
+                    the delivery teams.</p>
+                <h3>10.5.3 Working agreements and team ground rules</h3>
+                <p>Many concepts in agile relate to multi-skilled teams that are empowered and self-organize. Creating
+                    working agreements is a concept that is used to evolve the effectiveness of a team that is
+                    self-organizing. This is achieved by collectively developing a set of team guidelines, or rules, to
+                    bring some structure to how the team works and behaves.</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                    <div style="width: 80px; height: 80px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                             class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                            <path
+                                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                        </svg>
+                                    </div>
+                    <div class="ml-3">
+                        Tip<br> Working agreements and team rules include or are similar to policies, team norms or
+                        team charters.
+                    </div>
+                </div>
+                <h4>10.5.3.1 The basics</h4>
+                <p>These agreements can operate at many levels. Some of them may relate to concepts such as values (e.g.
+                    ‘we should be honest’, ‘we should be open’) whilst others may relate to simple rules about how long
+                    a stand-up meeting lasts (e.g. 10 or 15 minutes), or agreeing the core working hours for the team.
+                    They are created and reviewed by the team members themselves (typically during a retrospective) and
+                    their purpose is to improve the effectiveness of the team by reducing mistakes and promoting
+                    successful behaviours and practices.</p>
+                <p>Typically they are made visible (perhaps displayed on the wall) and the team develops them over time.
+                    The team manager should make sure that everyone is involved, that improvements to the rules are
+                    facilitated and that everyone can contribute freely as the features evolve.</p>
+                <h4>10.5.3.2 Further information</h4>
+                <p>All teams are different, and most of the way a team works and acts should develop naturally and not
+                    need to be defined. Therefore any rules that are defined should help strengthen the way the team
+                    works and provide a focus. Having too many rules could have the opposite effect.</p>
+                <h4>10.5.3.3 Hints that may prove useful</h4>
+                <p>Team ground rules can help with the internal workings of the team. They could be included as part of
+                    a work package as long as everyone is in agreement – i.e. the team, the project manager and the team
+                    manager.</p>
+                <p>Agreements and rules are potentially destructive if they are not built carefully by consensus and
+                    involve all of those impacted. Some teams prefer to make their commitment to the rules visible by
+                    signing them for all to see. Other teams prefer a more cautious approach based on trust and may even
+                    avoid using the word ‘rule’, as they perceive this word to have negative connotations because it
+                    looks like an order or a command.</p>
+                <p>A balance between when to guide and when to force is needed. An example of this would be the
+                    definition of ‘ready’, which is more of a guide to people, whereas the definition of ‘done’ is
+                    something that should be complied with. However, both should be defined collaboratively in order to
+                    get commitment to both.</p>
+                <h4>10.5.3.4 The Pastor of Fun</h4>
+                <p>Many in the agile community who have experience of mature agile environments put a lot of emphasis on
+                    and effort into creating a collaborative culture in the teams and fostering motivated and happy
+                    people. An example of this is where a team creates a role for a person called the Pastor of Fun, and
+                    this role is responsible for ensuring that the team develops a close bond by organizing social
+                    activities (perhaps inside and outside of work) and coming up with ideas to make certain work
+                    activities or events more fun and enjoyable. This typically results in bringing out the more human
+                    side of everyone, and in turn this creates behaviours such as loyalty and openness.</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                    <div style="width: 80px; height: 80px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                             class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                            <path
+                                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                        </svg>
+                                    </div>
+                    <div class="ml-3">
+                        Tip<br> The Pastor of Fun is not an official PRINCE2 role.
+                    </div>
+                </div>
+                <h4>10.5.3.5 Assessing the needs of the team</h4>
+                <p>Collectively creating agreements on how the team works can be productive, but it needs to suit the
+                    requirements of the team. They should decide at what level or levels these agreements need to
+                    operate and on what scale they add value. For example, a working agreement could include the
+                    following parameters:</p>
+                <ul><li>Everyone’s views should be listened to and respected.</li>
+                    <li>The team is greater than the sum of its parts.</li>
+                    <li>There is no such thing as a silly question.</li>
+                    <li>Don’t be afraid to say ‘I was wrong’, ‘I need help’ or ‘I don’t know’.</li>
+                    <li>Stand-ups start at exactly 9:30am.</li>
+                    <li>If we can’t solve it ourselves we escalate it quickly.</li>
+                    <li>Ask don’t tell.</li>
+                    <li>It’s OK to challenge someone’s view.</li>
+                    <li>It’s OK to have fun!</li>
+                </ul>
+                <h2>10.6 ORGANIZATION THEME SUMMARY</h2>
+                <p>How a PRINCE2 project is organized when in an agile context is very important. Many considerations
+                    have to be taken into account in order to arrive at the best blend. One area of consideration is the
+                    specific responsibilities involved with each role and how they can be mapped and tailored. However,
+                    it is also important to understand and allow for the language involved, as this can have a
+                    significant effect in an agile context. The exact wording or title of a role can give off a negative
+                    impression in some situations, as can responsibilities that use terms such as ‘reporting to’ and
+                    ‘assigned to’. It is important to ensure that PRINCE2 operates as effectively as possible and is not
+                    compromised by terminology, but sometimes care is needed to create a positive effect.</p>
+                <h2>ACKNOWLEDGEMENTS AND FURTHER READING</h2>
+                <p>Bill George (2007). True North: Discover Your Authentic Leadership. John Wiley & Sons.</p>
+                <p>Robert K. Greenleaf (2002). Servant Leadership: A Journey into the Nature of Legitimate Power and
+                    Greatness. Paulist Press.</p>
+                <p>Patrick M. Lencioni (2002). The Five Dysfunctions of a Team: A Leadership Fable. John Wiley &
+                    Sons.</p>
+                <p>Duane Trammell, Ann McGee-Cooper and Jack Lowe (2012). Being the Change: Profiles from Our Servant
+                    Leadership Learning Community. Ann McGee-Cooper and Associates.</p>
+                <p>Bruce W. Tuckman (1965). Developmental sequence in small groups. Psychological Bulletin 63,
+                    384–399.</p>
+                <p>Geoff Watts (2013). Scrum Mastery: From Good to Great Servant Leadership. Inspect & Adapt,
+                    Cheltenham, UK.</p>
+                <p>Belbin team roles: http://www.belbin.com</p>
+                <p>Insights discovery: https://www.insights.com</p>
+                <p>Myers-Briggs Type Indicator: http://www.myersbriggs.org</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

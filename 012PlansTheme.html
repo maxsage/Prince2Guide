@@ -1,0 +1,396 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../csharp.css" />
+    <link rel="stylesheet" type="text/css" href="../master.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel-group">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1>12 Plans theme</h1>
+                </div>
+                <div class="panel-body">
+                    <h2>12.1 THE PRINCE2 APPROACH TO THE PLANS THEME</h2>
+                    <p>The purpose of the Plans theme is to facilitate communication and control by defining the means
+                        of delivering the products (the where and how, by whom, and estimating the when and how
+                        much).</p>
+                    <p>PRINCE2 recommends three levels of plan to reflect the needs of the different levels of
+                        management involved in the project, stage and team.</p>
+                    <p>PRINCE2’s planning levels are illustrated in Figure 12.1.</p>
+                    <h2>12.2 THE GENERAL VIEW OF AGILE WITH RESPECT TO THE PLANS THEME</h2>
+                    <p>Agile puts a lot of emphasis on planning, and there are several concepts and techniques (e.g.
+                        planning and estimating with story points) that could be said to be common to the agile way of
+                        working. However, not only are there significant differences between agile and conventional
+                        approaches to planning, there are also differences between the various agile frameworks. This
+                        means that there are choices to be made when planning, and care is needed to use the most
+                        appropriate approach to suit the situation.</p>
+                    <h3>12.2.1 Empiricism</h3>
+                    <p>A fundamental principle upon which most agile methods are based is the concept of empiricism. This
+                        involves making decisions based on experience – i.e. what is happening or has already happened.
+                        A simple example of this would be to start a piece of work and then calculate how much work is
+                        left to complete by comparing it with how much work is getting done. This then allows the team
+                        to forecast or create an end date.</p>
+                    <p>Starting work and seeing how much is getting done is sometimes called ‘calibration’ (in a similar
+                        way to manually setting weighing scales to zero), or calculating ‘velocity’ (i.e. the rate of
+                        progress). Another expression used to encapsulate this is ‘using yesterday’s weather’ as it can
+                        often be the best indicator of what is to follow. Future estimates are then based on this.</p>
+                    <figure>
+                        <img src="images/Figure12-001.PNG" style="width: 100%;" />
+                        <figcaption>Fig 12-001 PRINCE2's planning levels</figcaption>
+                    </figure>
+                    <p>The opposite of this is called ‘rationalism’ whereby reasoning or logic is used to make
+                        predictions and plan what should happen.</p>
+                    <p>In a BAU context empirical planning is a common agile technique and works well in an environment
+                        where work is ongoing. This means that when planning a two-week sprint, the primary information
+                        to use would be that of the previous sprint and the sprints prior to that.</p>
+                    <h3>12.2.2 Planning style</h3>
+                    <p>Agile plans are often created in a particular style which involves:</p>
+                    <ul>
+                        <li>Basing planning around requirements and features</li>
+                        <li>Making planning a team-based exercise</li>
+                        <li>Planning at the last responsible moment (also known as JIT or just-in-time planning).</li></ul>
+                    <p>The first point means that the focus of any agile plan is on what features are being delivered as
+                        opposed to focusing on technical phases such as design, build and test (see section 2.1).</p>
+                    <p>The second point is a vital component of the agile mind-set that creates ownership of plans and
+                        underpins the ability of a team to self-organize. In some agile environments this may only
+                        happen at the delivery level. A project would be seen as more agile if the same ethos applied to
+                        plans created at the project management and project direction levels.</p>
+                    <p>The third point enables a team to adapt easily to changing circumstances by planning as near as
+                        possible to the point where a product is being created. However, care is needed to avoid taking
+                        unnecessary risks by leaving decisions too late or procrastinating.</p>
+                    <p>Agile planning can be very effective even though it is sometimes quite simple and low-tech, such
+                        as a simple list which is referred to as a backlog. The aim is to do the right amount of
+                        planning at the right time.</p>
+                    <h3>12.2.3 Using points to plan</h3>
+                    <p>As agile has evolved over the years many people have moved from controlling their work with a
+                        timeboxing approach (e.g. Scrum) to using flow-based systems through the use of Kanban (see
+                        Figure 12.2). This has created choice for agile teams whereby teams can use a point-scoring
+                        system to negotiate and plan (e.g. effort points per story), or they can choose to forecast
+                        according to such things as lead times (i.e. how long it takes a piece of work of this type to
+                        complete). There are advantages and disadvantages when using points in their many forms, so care
+                        should be taken to use them appropriately as described in the guidance later in section
+                        12.4.1.</p>
+                    <p>It is important to note that the use of ‘points’ for estimation is seen by some as fundamental to
+                        working in an agile way. Although they are still popular and still useful, they should be seen
+                        as ‘a way’ and not ‘the way’ (see section 12.4.1). A middle ground is often used whereby a
+                        simple form of estimation is used where work is classified as either large, medium or small, or
+                        high, medium and low, and this can be used with either a timeboxed or flow-based approach.</p>
+                    <h2>12.3 PRINCE2 AGILE GUIDANCE FOR THE PLANS THEME</h2>
+                    <p>PRINCE2 supports any type of planning style from a conventional Gantt chart to a simple backlog
+                        list. Both styles are in keeping with the product description for a plan (see Appendix A.16). It
+                        may be the case that more than one planning style is used on a single project. There may be a
+                        tendency to use more conventional planning techniques for the higher levels of planning (e.g.
+                        where departmental and organizational dependencies may exist) but this may not be necessary.
+                        When using PRINCE2 in an agile environment a Gantt chart can be of limited value as it is not
+                        geared to monitor and control the amount of products delivered and their quality.</p>
+                    <figure>
+                        <img src="images/Figure12-002.PNG" style="width: 100%;" />
+                        <figcaption>Fig 12-002 Timeboxed versus flow-based working</figcaption>
+                    </figure>
+                    <h3>12.3.1 Collaborative planning</h3>
+                    <p>Agile planning is collaborative, for all types of plan and at all levels, and this is desirable
+                        in order to create an environment where the people involved in a project can respond to changing
+                        circumstances. If a group of people are working to a plan that was created by someone else (e.g.
+                        the project manager) there is likely to be less commitment and responsiveness.</p>
+                    <p>This does not mean that the role of the project manager or team manager is any less important,
+                        but it does mean that they need to facilitate this style of planning.</p>
+                    <h3>12.3.2 Using empiricism to plan</h3>
+                    <p>Empiricism has many advantages, and to use PRINCE2 in an agile environment this needs to be fully
+                        understood and embraced as far as is practicable. A potential drawback with some of the agile
+                        planning techniques is that in a project context (where a project is finite), we need to
+                        estimate and plan before we start and not after.</p>
+                    <p>PRINCE2 needs a project plan with an end date for the following reasons:</p>
+                    <ul>
+                        <li>It will enable the project to be justified and therefore authorized.</li>
+                        <li>It will provide a baseline against which progress can be measured and stages defined.</li>
+                        <li> Projects are finite pieces of work that are ‘bounded’; therefore without an end date
+                            PRINCE2 and PRINCE2 Agile would not see the work as a project.
+                        </li>
+                        <li>From a supplier perspective it enables them to give the customer a price and a delivery date.</li>
+                        <li>It will show if a minimum viable product (MVP) can be created in time.</li>
+                    </ul>
+                    <p>Stage plans and team plans are similarly affected, albeit at a lower level.</p>
+                    <h3>12.3.3 Planning horizons</h3>
+                    <p>Having an end date is one thing, but how accurate and realistic it is can be something quite
+                        different.</p>
+                    <p>Both agile and PRINCE2 accept the premise that the further you look into the future the more
+                        uncertainty there is. This means that longer-term estimation will need an increasing margin of
+                        error compared with shorter-term estimation. This leads to the use of the term ‘planning
+                        horizon’ whereby a plan for the next two weeks would be quite detailed and have a relatively low
+                        margin of error, whereas a plan for the next 12 months would be much less detailed and have a
+                        relatively high margin of error (see Figure 12.3).</p>
+                    <p>Long-term planning addresses the uncertainties and unknowns (sometimes referred to as the ‘cone
+                        of uncertainty’) by providing a level of confidence or a range with each estimate in the form of
+                        agreed tolerances (see section 25.4).</p>
+                    <p>Estimation and planning are seen as evolutionary when using agile and not a one-off activity.
+                        They are carried out throughout the project and for every level of plan (see Table 12.1).</p>
+                    <p>Empirical and <strong>emergent</strong> planning is more likely to occur in the lower levels of plan such as with
+                        product delivery within the Managing Product Delivery process (i.e. where agile is predominantly
+                        used) because the timescales (and therefore the planning horizons) will be short, perhaps in the
+                        order of two to four weeks. The tasks at this level of plan will be so small (e.g. a matter of
+                        days or hours) that feedback in the form of metrics will be frequent and planning will have a
+                        relatively low margin of error. ‘Just-in-time’ (or JIT) planning at these low levels of plan is
+                        sometimes referred to as ‘rolling-wave planning’ or ‘progressive elaboration’.</p>
+                    <figure>
+                        <img src="images/Figure12-003.PNG" style="width: 100%;" />
+                        <figcaption>Fig 12-003 Different planning levels, horizons and formats</figcaption>
+                    </figure>
+                    <caption>Table 12.1 Estimation approaches that may be used at each PRINCE2 plan level</caption>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <td>PRINCE2 plan level</td>
+                            <td>Possible agile equivalent</td>
+                            <td>Typical estimation approaches and/or techniques</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>(Corporate or programme)</td>
+                            <td>Product roadmap</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Project</td>
+                            <td>Project</td>
+                            <td>By analogy with other projects or by using more predictive or ‘rational’ means or expert
+                                knowledge
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Stage</td>
+                            <td>Release (one or more)</td>
+                            <td>Effort per feature in the form of points and expected value or by using existing lead
+                                times if available
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Team</td>
+                            <td>Sprint (one or more)</td>
+                            <td>Effort per backlog item in the form of points or by using existing lead times if
+                                available
+                            </td>
+                        </tr>
+                        </tbody></table>
+                    <div class="alert alert-primary d-flex align-items-center" role="Definition">
+                        <div style="width: 80px; height: 80px">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                class="bi bi-book" viewBox="0 0 16 16">
+                                <path
+                                    d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                            </svg>
+                        </div>
+                        <div class="ml-3">
+                            Definition: Emergent<br>
+                            A concept in agile that refers to creating solutions and making decisions in a way that
+                            gradually converges on an accurate solution and doesn’t involve a lot of upfront work. The
+                            opposite would be to spend time and try to predict how things will happen. An example
+                            would be ‘emergent architecture’ whereby work could be started on the product and then
+                            the best architecture would emerge as the product develops. The alternative would
+                            involve doing a lot of work in advance to decide how the product would be built.
+
+                        </div>
+                    </div>
+                    <p>A more predictive style of the planning would typically be applied for higher-level plans (e.g.
+                        project plans and possibly stage plans) as these have a relatively higher margin of error.
+                        However, empiricism can still be used at these levels, and it would be a good sign of an
+                        organization’s maturity if measures and metrics from previous projects and stages were used to
+                        estimate without a lot of ceremony.</p>
+                    <p>Either way, over-planning should be avoided as it is not possible to cover and plan for every
+                        eventuality. Therefore the attitude should be to do ‘enough’ planning and no more, otherwise the
+                        extra work will outweigh the potential benefits as with the law of diminishing returns. The
+                        Agile Manifesto puts emphasis on responding to change rather than following a plan.</p>
+                    <h3>12.3.4 Align product-based planning to features</h3>
+                    <p>One of the most powerful techniques in PRINCE2 is that of product-based planning, and this can be
+                        applied very easily in agile situations. When creating a product breakdown structure or product
+                        description the focus will typically be similar to the content of a requirement or user story.
+                        It would not be appropriate to use technical phases during this exercise in an agile context
+                        (e.g. analysis, design, build and test) as this is not the focus of the agile way of
+                        working.</p>
+                    <p>When using PRINCE2 in an agile context it is important to plan around features and groups of
+                        features. Due to the primary focus of agile being based on flexing what is being delivered (see
+                        Chapter 6) features expressed in the form of requirements or user stories represent the
+                        contingency on a project when combining PRINCE2 with agile. Conversely, time and cost are not
+                        used as contingency and are therefore likely to remain stable. Clearly illustrating what
+                        constitutes the MVP is recommended.</p>
+                    <p>Product-based planning can be used for any level of plan in PRINCE2. Perhaps at the lowest level
+                        a team may prefer to use its own form of activity planning but the option to use product-based
+                        planning should at least be considered.</p>
+                    <h3>12.3.5 A possible limitation with sprint planning by priority only</h3>
+                    <p>When working at the delivery level with agile, planning centres around the immediate future and
+                        this often relates to a timebox of two to four weeks. Although flow-based approaches do not
+                        typically use a timebox, both flow-based and iterative timeboxing approaches focus predominately
+                        upon prioritization. That is to say the focus is on doing the highest-priority work as soon as
+                        possible.</p>
+                    <p>This is typified by sprint planning in Scrum (see Appendix H) whereby the highest-priority items
+                        in the product backlog are broken down into tasks by the team that will be developing them. An
+                        indication of a well-maintained product backlog is that each entry in the product backlog is
+                        independent of any other entry, thus increasing the likelihood that work can be carried out by
+                        any member of the team with the appropriate skills, without impacting on any of the others.
+                        However, there will typically be limitations due to people having certain types of skill and
+                        experience, and which people are available; therefore a balance will always need to be
+                        struck.</p>
+                    <p>Projects by their very nature are challenging, and therefore when planning at the levels above
+                        the product delivery level it is usually too simplistic to create a prioritized to-do list and
+                        start working from the top. Longer-term planning needs to consider many factors such as
+                        dependencies (internal and external to the project) and the grouping together of similar work
+                        items.</p>
+                    <h2>12.4 AGILE CONCEPTS AND TECHNIQUES</h2>
+                    <h3>12.4.1 Agile estimation</h3>
+                    <p>One of the most popular techniques used in agile environments is to estimate the work to be done
+                        using a points system. This technique can be used for any type of plan in PRINCE2 (see ‘sprint
+                        planning’ in Appendix H). Although the technique is reasonably straightforward and commonly
+                        used, many of its advantages are not that obvious and sometimes overlooked.</p>
+                    <h4>12.4.1.1 The basics</h4>
+                    <p>The principal thinking behind this technique is to start estimating by using ‘relative’ estimates
+                        (not ‘actual’ estimates) and to do this by harnessing the knowledge of the whole team in a way
+                        that everyone can contribute without being prejudiced by other team members.</p>
+                    <p>The most common form of relative estimation is achieved by giving requirements or user stories a
+                        points value that means something relative to another requirement or user story. If painting a
+                        wall was given a value of one point and painting a ceiling was given a value of two points, this
+                        would mean that painting the ceiling would require twice the effort compared with painting the
+                        wall. Importantly, this does not give any indication of how long either task will take, but it
+                        does mean that if painting the wall turns out to take five days then painting the ceiling should
+                        take something in the region of 10 days – assuming that we have made a correct relative
+                        estimate.</p>
+                    <p>Creating these relative estimates is carried out as a team, where each team member simultaneously
+                        gives their opinion by using pre-numbered playing cards or pieces of paper showing their chosen
+                        points value. The reason for using playing cards or similar is to avoid people having their
+                        estimates affected or prejudiced by other people’s views. One area that can affect people’s
+                        judgement is the tendency for people to put too much emphasis on the first estimate suggested.
+                        This is known as ‘anchoring’.</p>
+                    <p>When everyone reveals their points estimates it is important that any differences, small and
+                        large, are discussed and the reasoning behind the differences is understood. Then another round
+                        of voting takes place, which leads to the team estimates converging towards a collectively
+                        agreed point value. Ultimately, a team can work out how many points they can do in a timebox and
+                        can forecast future work throughput, although this does need a degree of stability in the
+                        working environment so that like is being compared with like.</p>
+                    <h3>12.4.1.2 Further information</h3>
+                    <p>There are many variations of numbering systems used and most are based on the Fibonacci sequence
+                        of 1, 1, 2, 3, 5, 8, 13, 21, 34 etc. Pre-printed playing cards are commonly used with a sequence
+                        of 1, 2, 3, 5, 8, 13, 20, 40 and 100 or similar, possibly with extra cards too.</p>
+                    <p>Therefore, using this points system a requirement estimated at eight points would involve four
+                        times the effort compared with a requirement classified as being worth two points.</p>
+                    <caption>Table 12.2 Using ratios along with T-shirt sizes</caption>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <td>Size</td>
+                            <td>Ratio</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>S</td>
+                            <td>1</td></tr>
+                        <tr>
+                            <td>M</td>
+                            <td>2</td></tr>
+                        <tr>
+                            <td>L</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>8</td></tr>
+                        <tr>
+                            <td>XXL</td>
+                            <td>16</td></tr>
+                        </tbody>
+                    </table>
+                    <p>Another very popular technique is called ‘T-shirt sizing’. This involves classifying each
+                        requirement or user story as being either small (S), medium (M), large (L) or extra-large (XL)
+                        and so on. Even a simple rating of ‘high, medium or low’ as a guide to effort can still be
+                        effective. These systems are deliberately abstract in that they can be carried out without any
+                        relative values or ratios. In effect they just say that a medium task is bigger than a small and
+                        not as big as a large.</p>
+                    <p>Ratios (or values) can be used with these approaches if desired as shown in Table 12.2. The
+                        reason why the numbers increase exponentially, and not in a linear manner, is because there is
+                        more uncertainty as the size of a task increases.</p>
+                    <h4>12.4.1.3 Hints that may prove useful</h4>
+                    <p>When starting the estimation exercise, see if the team can agree on a single base story that
+                        represents a value of one (or another number if preferred) so that every other story has
+                        something relative to refer to from the start.</p>
+                    <p>If a story is estimated at a very large number (e.g. 40 or 100) then it would normally indicate
+                        that there is not enough known about the story to provide a realistic estimate. Further
+                        investigative work is likely to be required to understand more about the story.</p>
+                    <p>Avoid using actual times instead of the points when using this technique. It can cause teams to
+                        work less hard or too hard if the estimate is inaccurate, and estimates would need to be based
+                        on some form of standard day, which may be difficult to calculate. Points are arbitrary and
+                        therefore reduce the likelihood of this problem and the potential for conflict.</p>
+                    <p>Do not compare your relative estimates with the relative estimates of other teams. Each team has
+                        its own individual way of doing this, and the approach may not be the same across teams (e.g.
+                        the degree to which they factor in their own risk appetite might vary).</p>
+                    <p>When using playing cards or paper to estimate, do not at any time average out the point scores.
+                        It is the debate and interaction between the team members that will result in a greater
+                        understanding of the task and therefore produce a more accurate estimate.</p>
+                    <p>When considering the relative effort involved it is best not to think of the actual effort
+                        required, as this defeats the purpose of the technique. Ultimately these relative estimates can
+                        be converted into actual estimates of time and cost if desired but this may not take place (e.g.
+                        a delivery team might try and do as much work as possible (measured in points) in the allotted
+                        time period). However, in a project context deadlines will need to be forecast so it may be
+                        necessary to go some way in converting the relative estimates into times. Please note that when
+                        using the more common agile frameworks in the BAU domain, teams are quite happy dealing with
+                        relative estimates in the style of points (or similar) and do not convert them to an actual
+                        effort figure such as hours or days.</p>
+                    <p>The concept of team-based estimation is often referred to as ‘the wisdom of crowds’, and focuses
+                        on bringing different areas of knowledge and experience together in order to get the best
+                        estimate possible. Unusual estimates from certain team members may contain great insight. One of
+                        the benefits of this technique is the amount of communication and understanding that the team
+                        generates during this exercise.</p>
+                    <figure>
+                        <img src="images/Figure12-004.PNG" style="width: 100%;" />
+                        <figcaption>Fig 12-004 Painting a wall – comparing effort with complexity</figcaption>
+                    </figure>
+                    <p>The points values are usually referred to as story points as they typically relate to a user story and the amount
+                        of effort involved to complete it. Another similar term used for this is ‘complexity points’ where estimates are
+                        based on complexity. This is not the same as effort, which already factors in the level of complexity and is
+                        illustrated in Figure 12.4.</p>
+                    <h2>12.5 PLANS THEME SUMMARY</h2>
+                    <p>Planning in PRINCE2 operates at several levels and throughout a project. PRINCE2 Agile planning
+                        is very comprehensive (e.g. the plans include the requirements/user stories) and when this is
+                        carried out in a very collaborative and feature-focused planning style, it creates a lot of
+                        knowledge transfer about the plan and the ownership of it.</p>
+                    <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                        <div style="width: 80px; height: 80px">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                                 class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                                <path
+                                                        d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                            </svg>
+                                        </div>
+                        <div class="ml-3">
+                            Tip<br> An estimate should always have at least two parts: the estimate itself and a level of
+                            confidence for that estimate.
+                        </div>
+                    </div>
+                    <h2>ACKNOWLEDGEMENTS AND FURTHER READING</h2>
+                    <p>Mike Cohn (2005). Agile Estimating and Planning. Prentice Hall.</p>
+                    <p>James Grenning: http://www.renaissancesoftware.net/blog</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

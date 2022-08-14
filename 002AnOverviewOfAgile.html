@@ -1,0 +1,333 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../csharp.css"/>
+    <link rel="stylesheet" type="text/css" href="../master.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>2 An overview of agile</h1>
+            </div>
+            <div class="panel-body">
+                <h2>2.1 INTRODUCTION</h2>
+                <p>The term ‘agile’ is very broad and is viewed in many different ways throughout the agile community.
+                    There is a set of well-known frameworks referred to as ‘agile methods’ and there are also well-known
+                    behaviours, concepts and techniques that are recognized as characterizing the agile way of working.
+                    But there is no single definition of agile that accurately encapsulates them all, although the Agile
+                    Manifesto (see Figure 2.1) comes the closest to achieving this.</p>
+                <h3>2.1.1 Some history</h3>
+                <p>The term ‘agile’ was created in 2001 (www.agilemanifesto.org) when a group of ‘independent thinkers
+                    around software development’ came together to talk about an alternative to the heavyweight,
+                    document-driven processes that existed at the time. Known as the ‘Waterfall methodology’ (see Figure
+                    2.2), these old-fashioned processes comprised a sequence of technical phases that were slow and
+                    struggled to respond to changing requirements, particularly when they were mired in too much detail
+                    from the start</p>
+                <p>The group was already working in ways that later become described as agile; an output from this
+                    meeting was the Manifesto for agile Software Development, or the ‘Agile Manifesto’ as it is more
+                    commonly known, and its impact and success have been quite dramatic. The Agile Manifesto is
+                    summarized in Figure 2.1; it also contains 12 principles which are listed in Appendix E.1. It is
+                    important to appreciate the intent of the final two lines of the Agile Manifesto: it is a case of
+                    relative importance of the values, and not a case of ‘good’ or ‘bad’.</p>
+                <figure>
+                    <img src="images/Figure02-001.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 02-001 The Agile Manifesto</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Figure02-002.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 02-001 The contrast between Waterfall and agile phases</figcaption>
+                </figure>
+                <p>The reason for agile becoming so popular was that it helped to address the new demands being placed
+                    on how software was delivered. Software needed to be produced more frequently whilst at the same
+                    time being of the appropriate level of quality to meet the demands of new technologies, the internet
+                    and the digital era. In contrast to the Waterfall way of working, agile phases are smaller and more
+                    iterative and incremental (see Figure 2.2).</p>
+                <p>By definition, the Agile Manifesto only applies to developing software, and most of its underlying
+                    principles appear to suggest that this is in the context of the continual timeboxed development of a
+                    software product. Although it was created as a way to develop software, it has since been recognized
+                    as a successful approach beyond software development, and many people use the Agile Manifesto,
+                    replacing the word ‘software’ with ‘products’ or ‘solutions’.</p>
+                <h3>2.1.2 Agile today</h3>
+                <p>Agile has come a long way since 2001 and is no longer just ‘an IT thing’. It now includes situations
+                    that are large scale, complex in nature and happening in a wide array of contexts far beyond
+                    software development.</p>
+                <p>Nowadays, most if not all organizations are aware of the term agile, and every organization should
+                    have a strategy in place to adopt it to some degree. For many years it was seen as a niche area; it
+                    is now mainstream and is used by organizations that are large and small, old and new, public sector
+                    and private sector</p>
+                <h2>2.2 AGILE BASICS</h2>
+                <p>When combining PRINCE2 with agile it is important to know what agile is, otherwise an inconsistent
+                    view of the basics of agile will make combining the two difficult (e.g. if someone in an
+                    organization thinks that agile can only be used on the IT part of a project, whereas someone else
+                    thinks it can be applied across the whole project, then this will present a problem)</p>
+                <p>A basic view of agile could generally be seen as one or more of the following (see Figure 2.3):
+                </p>
+                <ul>
+                    <li>Using a timeboxed and iterative approach to delivering software</li>
+                    <li>Using a collection of techniques such as daily stand-up meetings, sprints and user stories
+                    </li>
+                    <li>Using the Scrum framework (see Table 2.1).</li>
+                </ul>
+                <figure>
+                    <img src="images/Figure02-003.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 02-003 A basic ‘backlog’ and ‘sprint’ structure for delivering software
+                    </figcaption>
+                </figure>
+                <p>This is a very common structure used when working in an agile way for developing software. In simple
+                    terms, new features for a product are held in a prioritized list called the product backlog. The
+                    list may be made up of user stories, which are structured in a way that describes who wants the
+                    feature and why. The team that will build the features decides on what items from the top of the
+                    product backlog they can create in a timeframe of typically two to four weeks (which is known as a
+                    sprint). The work that the team think they can achieve during the sprint is held in a list called a
+                    sprint backlog. Each day throughout the sprint, a meeting is held to assess progress. At the end of
+                    a sprint new features should have been created and they may go into operational use. The output
+                    (i.e. the new features) is reviewed along with the way the team worked to achieve that output</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Definition">
+                    <div style="width: 80px; height: 80px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                         class="bi bi-book" viewBox="0 0 16 16">
+                        <path
+                                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                    </svg>
+                    </div>
+                    <div class="ml-3">
+                        Definition: Release<br> A general term used to describe a collection of features that will be
+                        moved into (or near to) operational use (or the act of doing this). In PRINCE2 Agile, a release
+                        is typically a container for more than one low-level timebox (e.g. a sprint) but this is not
+                        necessarily the case as the act of releasing features into operational use may happen more
+                        regularly (e.g. after each sprint or several times during a sprint). The term ‘deployment’ is
+                        sometimes used in agile and has a similar meaning, although it is not used in PRINCE2 Agile.
+                    </div>
+                </div>
+                <p>This basic structure may exist within an overall approach that includes a vision, a product roadmap
+                    (which is a plan of how a product will evolve) and a series of releases (see Figure 2.4)</p>
+                <figure>
+                    <img src="images/Figure02-004.PNG" style="width: 100%;"/>
+                    <figcaption>Fig 02-004 Sprints may exist within a wider context
+                    </figcaption>
+                </figure>
+                <p>The two examples represented in Figures 2.3 and 2.4 provide a typical view of agile, although it is
+                    somewhat limited. A more comprehensive view would include:</p>
+                <ul>
+                    <li>IT and non-IT situations</li>
+                    <li>Large and small projects as well as routine ‘business as usual’ (BAU) tasks</li>
+                    <li>Flow-based working as well as timeboxing.</li>
+                </ul>
+                <p>Further to this there also needs to be a wider mind-set and a collection of behaviours that enable
+                    the agile way of working to thrive.</p>
+                <div class="alert alert-primary d-flex align-items-center" role="Definition">
+                    <div style="width: 80px; height: 80px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                         class="bi bi-book" viewBox="0 0 16 16">
+                        <path
+                                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                    </svg>
+                        </div>
+                    <div class="ml-3">
+                        Definition: Flow-based working<br> This approach avoids the use of partitioning work into
+                        timeboxes and manages work by using a queue. Work is then continually pulled into the system
+                        (which may itself be a high-level timebox) and moves through various work states until it is
+                        done.
+
+                    </div>
+                </div>
+                <caption>Table 2.1 The most well-known agile methods and approaches</caption>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>
+                            Term
+                        </th>
+                        <th>
+                            Brief description
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            ASD (Adaptive Software Development)
+                        </td>
+                        <td>
+                            (IT only). Iterative development process (Highsmith, 2000).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Crystal</td>
+                        <td>(IT only). Iterative development method (Cockburn, 2001).</td>
+                    </tr>
+                    <tr>
+                        <td>DAD (Disciplined Agile Delivery)</td>
+                        <td>(IT only). An enterprise-wide scalable process framework described as ‘a process decision
+                            framework that is a people-first, learning-oriented hybrid agile approach to IT solution
+                            delivery’, that has ‘a risk-value delivery lifecycle, is goal-driven, is enterprise aware
+                            and is scalable.’ See http://www.disciplinedagiledelivery.com
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>DevOps</strong></td>
+                        <td>(IT only). A collaborative approach between development and operations aimed at creating a
+                            product or service where the two types of work and even the teams merge as much as possible.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DSDM (Dynamic Systems Development Method)/AgilePM</td>
+                        <td>An agile project framework that focuses on the iterative delivery of business systems
+                            through the use of timeboxing and continual business involvement. It has a defined process
+                            and corresponding set of products, a set of roles that operate at all levels of a project,
+                            eight guiding principles and a collection of key techniques that can be used throughout a
+                            project.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FDD (feature-driven development)</td>
+                        <td>(IT only). Iterative software development process focusing on features.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kanban</strong></td>
+                        <td>A way to improve flow and provoke system improvement through visualization and controlling
+                            <strong>work in progress</strong>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lean</strong></td>
+                        <td>An approach that focuses on improving processes by maximizing value through eliminating
+                            waste (such as wasted time and wasted effort).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lean Startup</td>
+                        <td>Originally an approach to creating and managing start-up companies, but now applied to any
+                            business, to help them deliver products to customers quickly.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SAFe (Scaled Agile Framework)</td>
+                        <td>(IT only). Large-scale application of agile across an organization. PRINCE2 and PRINCE2
+                            Agile could be used in SAFe where a piece of work is of a sufficient size or level of
+                            difficulty that it should be run as a project.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Scrum</td>
+                        <td>An iterative timeboxed approach to product delivery that is described as ‘a framework within
+                            which people can address complex adaptive problems, while productively and creatively
+                            delivering products of the highest possible value’ (see Appendix H).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>XP (eXtreme Programming)</td>
+                        <td>(IT only). Iterative software engineering practice that can be used on its own but often
+                            exists in tandem with Scrum or Kanban, where XP covers the creation of the software and
+                            Scrum or Kanban is used as an overarching framework to control the work.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                    <div style="width: 80px; height: 80px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                         class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                        <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                    </svg>
+                    </div>
+                    <div class="ml-3">
+                        Tip<br> AXELOS’s Managing Successful Programmes (MSP) provides best-practice guidance for
+                        managing related projects and activities in programmes of work that deliver business benefits
+                        through new capabilities.
+                    </div>
+                </div>
+                <h3>2.2.1 Agile frameworks</h3>
+                <p>There is a family of frameworks (also referred to as methods or approaches) that are generally
+                    recognized as being agile. However, some are only applicable to IT situations. A summary of the most
+                    well known is shown in Table 2.1.</p>
+                <h3>2.2.2 Agile behaviours, concepts and techniques</h3>
+                <p>Along with the agile frameworks there are a variety of behaviours, concepts and techniques that are
+                    seen as being part of the agile way of working. Examples are shown in Table 2.2 (some of which are
+                    defined in the glossary) but the table only provides a few illustrative examples of what is seen as
+                    agile. It is not a complete list and it is not necessary to be strict on the exact terms used (e.g.
+                    whether or not something is a technique or a behaviour).</p>
+                <caption>Table 2.2 Typical agile behaviours, concepts and techniques</caption>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>
+                            Term
+                        </th>
+                        <th>
+                            Examples
+                        </th>
+                        <th>Similar terms</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Behaviours
+                        </td>
+                        <td>
+                            Being collaborative, self-organizing, customer-focused, empowered, trusting not blaming.
+                        </td>
+                        <td>
+                            Principles, values, mind-set
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Concepts
+                        </td>
+                        <td>
+                            Prioritizing what is delivered, working iteratively and incrementally, not delivering
+                            everything, time-focused, ‘inspect and adapt’. <strong>Kaizen</strong>. Limiting work in
+                            progress (WIP).
+                        </td>
+                        <td>
+                            Fundamentals
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Techniques</td>
+                        <td><strong>Burn charts</strong>, user stories, <strong>retrospectives</strong>, timeboxing,
+                            measuring flow.
+                        </td>
+                        <td>Practices, tools</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <p>PRINCE2 and PRINCE2 Agile do not favour one agile approach over any other (this is sometimes referred
+                    to as being ‘agile agnostic’), and with due care and consideration, they can engage with agile in
+                    all of its many forms to provide a holistic project management approach that can be tailored to suit
+                    a wide variety of conditions and working environments.</p>
+                <h2>ACKNOWLEDGEMENTS AND FURTHER READING</h2>
+                <p>Alistair Cockburn (2001). Agile Software Development: Software Through People. Addison Wesley</p>
+                <p>J.A. Highsmith (2000). Adaptive Software Development: A Collaborative Approach to Managing Complex
+                    Systems. Dorset House, New York.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -26,11 +26,557 @@
         <div class="panel-group">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h1>2 An overview of agile</h1>
+                    <h1>25 Requirements</h1>
                 </div>
                 <div class="panel-body">
-                    <h2></h2>
-                    <p></p>
+                    <h2>25.1 PURPOSE</h2>
+                    <p>The purpose of this focus area is to describe how to define and prioritize requirements (or user stories), so
+                        that they are in a form that is conducive to working in an agile way (where the requirements are subject to
+                        the inevitability of change – see also Chapter 14, Change theme).</p>
+                    <h3>25.1.1 Requirements terminology</h3>
+                    <p>There are many terms that are used to describe what a product does or how well it does it. In
+                        PRINCE2 Agile the conventions in Table 25.1 are used.</p>
+                    <caption>Table 25.1 Requirements and equivalent terms</caption>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Approximate level of detail</th>
+                            <th>Preferred PRINCE2 Agile terms</th>
+                            <th>Possible equivalent terms</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>The highest</td>
+                                <td>Project product description</td>
+                                <td>Vision</td>
+                            </tr>
+                            <tr>
+                                <td>High level</td>
+                                <td>Product group<br> Project product description composition<br> High-level requirement
+                                </td>
+                                <td>Epic, feature, function, theme, scope</td>
+                            </tr>
+                            <tr>
+                                <td>Intermediate level</td>
+                                <td>Product description<br>
+                                Intermediate-level requirement</td>
+                                <td>Epic, feature, function, coarse-grained user story</td>
+                            </tr>
+                            <tr>
+                                <td>Low level</td>
+                                <td>Product description<br>
+                                Sub-product<br>
+                                Low-level or detailed requirement</td>
+                                <td>User story, fine-grained user story</td>
+                        </tbody>
+                    </table>
+                    <h4>25.1.1.1 Further clarification</h4>
+                    <p>The following lists some of the ways requirements are treated in PRINCE2 Agile:</p>
+                    <ul>
+                        <li>In order to meet a requirement or produce a product it may be necessary to carry out one or
+                            more ‘tasks’. These could appear on a team plan or sprint backlog (not referred to as
+                            requirements by PRINCE2 Agile).
+                        </li>
+                        <li>Requirements fall into two types: functional (what it does) and non-functional (how well it
+                            does it).
+                        </li>
+                        <li>Throughout the PRINCE2 and the agile communities, many of these terms are used
+                            interchangeably (e.g. function, feature, user story, requirement) although they are not
+                            necessarily referring to the same thing. Table 25.1 provides the view of PRINCE2 Agile and
+                            how it refers to these terms.
+                        </li>
+                        <li>Throughout this manual, the terms ‘requirements’, ‘product descriptions’ and ‘user stories’
+                            are often used interchangeably, as most of the time they are referring to the same thing.
+                            The choice of term will depend on which term best suits the context.
+                        </li></ul>
+                    <h3>25.1.2 The role of requirements</h3>
+                    <p>Requirements have a special role in an agile context. They represent the ‘currency’ an agile team
+                        deals in. Managing and trading requirements becomes a focal point of the way an agile team
+                        works, as less focus needs to be applied to other constraints such as managing time and
+                        cost.</p>
+                    <p>Defining a requirement is one thing, defining it well is another! It is essential that
+                        requirements are defined well, as this gives a level of precision that actually defines the end
+                        product. However, to do this requires the relevant technical skills and the use of good
+                        techniques such as interviewing skills and process modelling.</p>
+                    <p>Take, as an example of the importance of requirements, the delivery of a new kitchen. This is
+                        what the customer wants and what the project must deliver, as described in the project product
+                        description. A business case would have been created in order to justify this. But how does the
+                        customer define what they mean by ‘a kitchen’? Does the new kitchen have a dishwasher and an
+                        ice-maker? How important are these features? Requirements describe what the customer means by ‘a
+                        kitchen’</p>
+                    <h2>25.2 REQUIREMENTS DEFINITION</h2>
+                    <p>One of the most powerful techniques in PRINCE2 is that of product-based planning (see Appendix
+                        D). This technique shifts the emphasis from activity-based planning to a more black-and-white
+                        form of planning focused on the end state of a product or sub-product (i.e. is it complete and
+                        100% finished, or is it still a work in progress?) agile works in the same way as with the
+                        definition of ‘done’ in Scrum (see Appendix H) and ‘acceptance criteria’ in the glossary.</p>
+                    <h2>25.3 DEFINING PRODUCT DESCRIPTIONS</h2>
+                    <p>It is important when using PRINCE2 with agile to define product descriptions at the correct level
+                        of detail at the right time and then allow them to evolve. Too much detail will stifle the
+                        dynamic and responsive nature of agile because agile refines the detailed understanding of a
+                        product as it evolves. Equally, too little detail creates room for misunderstanding, as
+                        requirements would be too vague. This would then need further clarification or rework, causing
+                        delays and probably frustration.</p>
+                    <h2>25.4 REQUIREMENTS DECOMPOSITION AND GRANULARITY</h2>
+                    <p>Essential to the success of using PRINCE2 with agile is to ensure that requirements are defined
+                        at the appropriate level of understanding during each stage of a project. This normally involves
+                        a simple three-step process (see Table 25.2 and Figure 25.1), although this may be done in two
+                        steps on smaller projects where the processes of Starting up a Project and Initiating a Project
+                        may have been combined</p>
+                    <figure>
+                        <img src="images/Figure25-001.PNG" style="width: 100%;" />
+                        <figcaption>Fig 25-001 Possible requirements decomposition and equivalent terminology</figcaption>
+                    </figure>
+                    <p>This could be likened to JIT (just-in-time) inventory management in that just enough detail needs
+                        to be available at the right time. The ‘Level of requirement’ column in Table 25.2 is only a
+                        very general guide and is included to give at least some idea of scale, but this should not be
+                        seen as anything more than a rudimentary rule of thumb. If a team is prioritizing 200 user
+                        stories it should not be in the pre-project stage!</p>
+                    <p>The ‘Metaphor’ column is intended to provide help with visualizing the need to take requirements
+                        and break them down through the duration of the project. Too much detail early on can obscure
+                        the bigger picture.</p>
+                    <caption>Table 25.2 Typical levels of requirements decomposition</caption>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Project stage</th>
+                            <th>Level of requirement and a possible guide as to how many</th>
+                            <th>Metaphor</th>
+                            <th>Possible format</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Pre-project</td>
+                            <td>High level (possibly less than 10)</td>
+                            <td>Boulders</td>
+                            <td>Key objectives of the project in bullet point form – perhaps listed under the project
+                                product description as ‘composition’ or defined as product groupings
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Initiation stage</td>
+                            <td>Intermediate level (possibly more than 10 but less than 100)</td>
+                            <td>Rocks</td>
+                            <td>Product descriptions, epics</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery stage(s)</td>
+                            <td>Detail level (possibly more than 100)</td>
+                            <td>Gravel</td>
+                            <td>Detailed requirements/user stories relating to the product descriptions defined in the
+                                initiation stage
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p>From an estimation point of view (in the form of time, cost or benefits), the margin of error at
+                        each of these stages could be as follows:</p>
+                    <ul>
+                        <li>Pre-project, 50% to 100%</li>
+                        <li>Initiating stage, 20% to 40%</li>
+                        <li>Delivery stage(s), 10% to 20%.</li>
+                    </ul>
+                    <p>Again, this should only be seen as a guide and for illustrative purposes as this will vary
+                        according to such things as industry sector, organization and experience. It is sometimes
+                        referred to as the ‘cone of uncertainty’. The real margin of error will vary from project to
+                        project depending on each project’s conditions and level of uncertainty.
+                    </p>
+                    <h2>25.5 REQUIREMENTS PRIORITIZATION</h2>
+                    <p>Requirements prioritization is an essential part of using PRINCE2 in an agile environment and is
+                        at the heart of how it works. Continual prioritization of what is being delivered and the work
+                        being done enables deadlines to be hit and the quality level to be protected.</p>
+                    <h3>25.5.1 Approaches to prioritization</h3>
+                    <p>With respect to product delivery, there are two approaches to prioritization that are frequently
+                        used when working in an agile way:</p>
+                    <ul>
+                        <li>MoSCoW</li>
+                        <li>Ordering (1,2,3,…,n).</li>
+                    </ul>
+                    <p>It is important to use the correct approach in the correct situation because these do not work in
+                        the same way. MoSCoW typically works at higher levels and over longer timescales where
+                        requirements may be grouped by function and dependencies exist between these functions.</p>
+                    <p>Ordering primarily works at a lower level (or task level) where certain technical activities are
+                        taking place.</p>
+                    <p>The choice of approach will be dictated by the level of uncertainty of the work being undertaken.
+                        Generally speaking MoSCoW would be the default approach, as it specifically addresses situations
+                        where work is time-bound and finite such as when working on a project, or in a timebox.</p>
+                    <h3>25.5.2 Definition of MoSCoW</h3>
+                    <p>This acronym is used to categorize items such as requirements or tasks into one of the four
+                        following levels of how they relate to a deadline (see Table 25.3):</p>
+                    <ul>
+                        <li>Must have</li>
+                        <li>Should have</li>
+                        <li>Could have</li>
+                        <li>Won’t have for now.</li>
+                    </ul>
+                    <caption>Table 25.3 MoSCoW priorities</caption>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Priority with respect to the timebox*</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Must have</td>
+                                <td>Must be satisfied because without it, either the output from the timebox won’t work or
+                                    it is not worth delivering the output
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Should have</td>
+                                <td>Should be satisfied because it is highly desirable or very important, but it is not a
+                                    must have
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Could have</td>
+                                <td>Could be satisfied because it is still desirable or important, but not as much as a
+                                    should have</td>
+                            </tr>
+                            <tr>
+                                <td>Won’t have for now</td>
+                                <td>Won’t be satisfied before the deadline</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <caption>* Where the timebox could relate to a project, a stage, a release or a low-level timebox
+                        (e.g. a sprint).
+                    </caption>
+                    <h3>25.5.3 What happens if they are all ‘musts’?</h3>
+                    <p>It is a very natural and common concern that, when prioritizing using MoSCoW, everything will
+                        turn out to be a ‘must’. Typically, this is rarely true.</p>
+                    <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                        <div style="width: 80px; height: 80px">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                                 class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                                <path
+                                                        d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                            </svg>
+                                        </div>
+                        <div class="ml-3">
+                            Tip<br> MoSCoW always relates to a deadline.
+                        </div>
+                    </div>
+                    <h3>25.5.4 Is the requirement essential?</h3>
+                    <p>One technique for checking if a requirement really is a ‘must’ is to ask the question: ‘Would you
+                        put the product into operational use without this?’ In other words, is the output from the
+                        project still viable in accordance with the rationale and justification for the project, without
+                        satisfying this requirement?</p>
+                    <p>For example:</p>
+                    <ul>
+                        <li>Would you sell a car without wheels or an engine?</li>
+                        <li>Would you sell a car without satellite navigation?</li>
+                        <li>Would you sell a car without electric windows?</li>
+                    </ul>
+                    <p>Although the example is a simplistic analogy, it highlights that some features of a car are
+                        essential and others are not. Also, those features that are not essential may have satisfactory
+                        alternatives such as a manual winder for the windows.</p>
+                    <p>Further to this, the analogy also highlights the need to understand the overall objective for the
+                        project (as defined in the project product description), as the MoSCoW priorities would be
+                        different if the objective was to produce a luxury car as opposed to a budget car.</p>
+                    <h3>25.5.5 Can the requirement be decomposed?</h3>
+                    <p>Another technique which can be used to reduce the amount of effort needed for the ‘musts’ is to
+                        break the requirement down into more detail. It is normal for a high-level requirement that has
+                        been prioritized as a ‘must’ to be broken down into sub-requirements that comprise several
+                        musts, shoulds and coulds, thereby creating contingency in the form of shoulds and coulds.</p>
+                    <p>Take, for example, the search function of a customer relationship management system that must be
+                        able to search for customer details. The sub-requirements or musts, shoulds and coulds of such a
+                        function include:</p>
+                    <ul>
+                        <li>Must be able to search by customer name</li>
+                        <li>Could be able to search on parts of the customer name</li>
+                        <li>Must be able to search by customer account number</li>
+                        <li>Should be able to search by address</li>
+                        <li>Could be able to search by date of birth.</li>
+                    </ul>
+                    <div class="alert alert-primary d-flex align-items-center" role="Tip">
+                                        <div style="width: 80px; height: 80px">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                                                 class="bi bi-lightbulb flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Tip:">
+                                                <path
+                                                        d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                                            </svg>
+                                        </div>
+                        <div class="ml-3">
+                            Tip<br> If ever you need to quickly demonstrate prioritization with MoSCoW, a simple ballpoint pen
+                            can be a useful prop (see Figure 25.2). It can also be used to illustrate decomposition
+                            and how a ‘must’ can exist within a ‘could’.
+                        </div>
+                    </div>
+                    <h3>25.5.6 Ordering</h3>
+                    <p>There are situations when the best way to prioritize is to use a simple list where the most
+                        important item is at the top and the least important is at the bottom. This could be achieved
+                        using a basic scoring system from 1 to 5 for each item in the list, and then ordering all the 5s
+                        relative to one another and then so on with the 4s and 3s etc. This approach to prioritization
+                        is most appropriate when there is little dependency among the items on the list (i.e. they are
+                        broadly independent of one another) and the items on the list do not naturally group together so
+                        that they can be worked on at the same time.</p>
+                    <figure>
+                        <img src="images/Figure25-002.PNG" style="width: 100%;" />
+                        <figcaption>Fig 25-002 ‘MoSCoWing’ a pen</figcaption>
+                    </figure>
+                    <p>Kanban and Scrum tend to use ordering rather than MoSCoW. However, this approach may not work as
+                        well as MoSCoW if a list of requirements has natural groupings and/or dependencies, as the
+                        following example shows.</p>
+                    <h4>25.5.6.1 Example</h4>
+                    <p>You are building a luxury house that must be finished by a certain date. You cannot lower the
+                        level of quality and you cannot use additional resources to get it finished on time.</p>
+                    <p>The best prioritization approach to use in this situation is MoSCoW, as you would plan a series
+                        of high-level deliverables based around activities that can be grouped together and dependencies
+                        that need to be met. For example:</p>
+                    <ul>
+                        <li>Clear the site, lay the foundations and install services (e.g. electricity and water).</li>
+                        <li>Build the main house (so that you can live somewhere).</li>
+                        <li>Build the garage.</li>
+                        <li>Create the garden (after most of the construction vehicles have left).</li>
+                    </ul>
+                    <p>You may feel that the most important part of the whole project is the roof on the main house, but
+                        you wouldn’t start with this. You may also feel that the garden is more important to you than
+                        the garage, but you would deliver this after the garage because the process of building the
+                        garage may ruin the garden. When using MoSCoW, you do not necessarily deliver all of the ‘musts’
+                        first. In cases where you have many features that are dependent on each other, this will rarely
+                        happen.</p>
+                    <p>If your plan for the garden involves creating several features – such as a pond, a patio,
+                        planting trees, creating flowerbeds, building a greenhouse, creating a sandpit and installing a
+                        bird table – then this part of the project may lend itself more to ordering than MoSCoW because
+                        the features are reasonably independent of each other and do not naturally group together. You
+                        would then complete as many of these as you could before the deadline.</p>
+                    <h3>25.5.7 What can be prioritized?</h3>
+                    <p>When using agile, prioritization is used constantly and in many forms. The most obvious area
+                        where prioritization happens is with respect to the requirements of the project, and this covers
+                        those that are both functional and non-functional. Using a camera as an example, its functional
+                        and non-functional requirements could include that:</p>
+                    <ul>
+                        <li>It MUST take a photograph (functional).</li>
+                        <li>Its shutter MUST work in cold temperatures (non-functional).</li>
+                    </ul>
+                    <p>Many other areas could be prioritized, such as the tasks that need to be completed to satisfy a
+                        requirement. One especially useful area that could be prioritized is the quality criteria
+                        relating to a particular requirement or product description. Following on from the example
+                        above:</p>
+                    <ul>
+                        <li>The shutter MUST work at –5°C</li>
+                        <li>The shutter SHOULD work at –20°C</li>
+                        <li>The shutter COULD work at –35°C.</li>
+                    </ul>
+                    <p>Quality review activities could also be prioritized in order to target testing and checking more
+                        effectively, as it is rare that there is enough time to check everything.</p>
+                    <p>It is important that the correct prioritization approach is used in the appropriate circumstance.
+                        This is affected by the level of the requirements and their dependency on one another.</p>
+                    <h3>25.5.8 Handling change with prioritization</h3>
+                    <p>Change is inevitable on any project and PRINCE2 Agile refers to two types of change: detail and
+                        baseline (see also Chapter 14, Change theme).</p>
+                    <h4>25.5.8.1 Detail change</h4>
+                    <p>If the customer changes their mind on a requirement or comes up with a new requirement but this
+                        does not affect the project product description, then this would be seen as creating a more
+                        accurate final product and therefore would be seen as something positive.</p>
+                    <h4>25.5.8.2 Baseline change</h4>
+                    <p>If on the other hand a change to a requirement, or a new requirement, means that there needs to
+                        be a change to a product description, then this would be seen as a change to the baseline of the
+                        project and would therefore mean the rationale and justification of the project would need to be
+                        revisited.</p>
+                    <p>A problem often cited on projects is that of ‘scope creep’. PRINCE2 does not see refining the
+                        detailed requirements as they evolve as scope creep, whereas if there are changes to the
+                        higher-level requirements then this needs the appropriate level of governance. The tolerances
+                        used to define requirements can help with this along with defining the quality criteria more as
+                        a spectrum, rather than a binary condition.</p>
+                    <h3>25.5.9 Dynamic change with prioritization</h3>
+                    <p>PRINCE2 Agile is structured around flexing what is delivered as outlined in Chapter 6. Due to
+                        this, change can be handled very dynamically, if the change is of the detailed type outlined
+                        previously. When change of this type occurs there are two questions that need to be answered
+                        with respect to prioritization:</p>
+                    <ul>
+                        <li>What is the priority of the new requirement?</li>
+                        <li>Which requirement, or requirements, will be de-scoped to make way for the new requirement?
+                            This is sometimes referred to as ‘trading’, or ‘swapping’, requirements.
+                        </li>
+                    </ul>
+                    <p>Although answering these questions may involve discussions with various stakeholders including
+                        representatives of the supplier side, ultimately it needs to be driven from the customer
+                        side.</p>
+                    <figure>
+                        <img src="images/Image25-001.PNG" style="width: 100%;" />
+                        <figcaption>Image 25.1 List your priorities</figcaption>
+                    </figure>
+                    <p>Hints that may prove useful:</p>
+                    <ul>
+                        <li>See the list of requirements as dynamic – embrace change at the detailed level.</li>
+                        <li>Remember ‘Archimedes’ law of displacement’ – it also applies to new requirements or tasks:
+                            if new ones are coming in then some of the existing ones need to make way. This will be
+                            carried out by removing requirements or tasks that are of a similar level of effort.
+                        </li>
+                        <li>One of the first reactions to a delay, or an issue, of a project manager using agile in a
+                            PRINCE2 environment should be to think ‘I need the customer to de-scope something or at
+                            least flex the quality criteria on something.’
+                        </li>
+                        <li>Are the tolerance levels flexible enough to allow for a reasonable amount of de-scoping or
+                            flexing of the quality criteria, or are they too narrow and causing off-specs and requests
+                            for change?
+                        </li>
+                    </ul>
+                    <h3>25.5.10 The reason for prioritization</h3>
+                    <p>Prioritizing requirements or user stories is a regular and fundamental activity when using agile,
+                        but the reasons for this are sometimes overlooked. If you are prioritizing and in effect
+                        ‘maximizing the amount of work you are not doing’ then you will be able to hit deadlines,
+                        protect the quality of the products being delivered and respond to changes in order to provide a
+                        more accurate final product.</p>
+                    <h2>25.6 AGILE CONCEPTS AND TECHNIQUES</h2>
+                    <h3>25.6.1 User stories</h3>
+                    <p>User stories are a very popular technique used throughout agile. The thinking behind user stories
+                        is quite simple and if some basic guidelines are followed correctly their use can be quite
+                        effective. This simplicity only goes so far and user stories need to be complemented by a degree
+                        of rigour to gain the most benefit from this technique.</p>
+                    <h4>25.6.1.1 The basics</h4>
+                    <p>The exact format can vary but will be based on describing ‘who, what and why?’</p>
+                    <h4>25.6.1.2 As a
+                        &lt;role&gt;, I want to
+                            &lt;function&gt;, so that
+                                &lt;benefit&gt;
+                    </h4>
+                    <p>Originally the above heading would have been physically written on a card or sticky note (see
+                        Figure 25.3 for an example of a well-written user story) but capturing this electronically (e.g.
+                        on a spreadsheet) now also takes place. However, there is more visibility and transparency if it
+                        is hand written (or printed off) and this is the preferred approach if possible.</p>
+                    <p>Additional information is needed to evolve the user story – one important area being the addition
+                        of acceptance criteria (in the same way as with quality criteria for a PRINCE2 product
+                        description) in order to be able to test the user story. Sometimes this is called acceptance
+                        criteria or the definition of ‘done’. Further to this the user story should also contain at some
+                        point an idea of the effort involved in creating it and an idea of the value that it is worth to
+                        the customer. These two values could be relative or actual (see section 12.4.1).</p>
+                    <p>PRINCE2 sees user stories as broadly similar to a requirement (which may be a product description
+                        or contained within a product description (see section 25.1.1 for information on how to map
+                        these terms). A user story does have its own style in that it is often low-tech (i.e. it is very
+                        simple in form) and is often a physical thing (such as an index card).</p>
+                    <p>It is essential to avoid the common mistake made when using user stories, which is to see them
+                        for more than what they are. They are not fully or partially defined requirements: they are a
+                        starting point.</p>
+                    <p>The purpose of a user story is to enable discussion and communication to take place in order to
+                        arrive at a thorough understanding of what the customer needs. The card provides interesting
+                        information but it is the conversation around it that is vital. Mike Cohn (verbal communication)
+                        describes it as ‘a token for a conversation’.</p>
+                    <p>Further to this point it could be argued that the information on a user story is deliberately
+                        insufficient in order to necessitate a conversation with the customer.</p>
+                    <h4>25.6.1.3 Further information</h4>
+                    <p>The ‘Three Cs’ technique (created by Ron Jeffries) distils this into three steps:</p>
+                    <ul>
+                        <li>Card Writing the story card</li>
+                        <li>Conversation The ongoing discussion involving the card</li>
+                        <li>Confirmation Writing the acceptance test.</li>
+                    </ul>
+                    <p>The INVEST mnemonic (created by Bill Wake) is used by many as a simple checklist to create a
+                        well-written user story in that it should be:</p>
+                    <ul>
+                        <li>I – Independent</li>
+                        <li>N – Negotiable</li>
+                        <li>V – Valuable</li>
+                        <li>E – Estimable</li>
+                        <li>S – Small</li>
+                        <li>T – Testable.</li>
+                    </ul>
+                    <p>In terms of managing the user stories (e.g. for planning purposes), making each user story
+                        ‘independent’ from one another means that someone can work on that user story without
+                        overlapping with or being dependent on someone else’s work. Making them ‘small’ further helps
+                        with planning and the quicker delivery of value.</p>
+                    <p>‘Negotiable’ refers to the collaborative working between the customer and the team delivering the
+                        product.</p>
+                    <p>The thinking behind making the user story ‘valuable’, ‘estimable’ and ‘testable’ focuses the
+                        customer and the team to be clear on what they are really trying to achieve. If these three
+                        cannot be achieved then there is more to do before work commences.</p>
+                    <p>The SMART abbreviation can also be used in this way (i.e. Specific, Measurable, Agreed,
+                        Realistic, Timed).</p>
+                    <h4>25.6.1.4 Epics</h4>
+                    <p>Embryonic customer requirements can initially be quite large or vague. This has given rise to a
+                        different type of user story known as an epic. In effect this is a high-level or ‘super-user’
+                        story that will over time be broken down into user stories at a level of granularity that the
+                        delivery teams can work on. One approach to deriving the user stories is to walk through the
+                        process which relates to the epic.</p>
+                    <p>Epics can appear on a product backlog but they would not appear towards the top, as they would
+                        not be written in sufficient detail.</p>
+                    <h4>25.6.1.5 Hints that may prove useful</h4>
+                    <p>User stories should be seen as summarizing key information about a requirement. Therefore it
+                        would usually be the case that other supporting information or documentation would need to be
+                        referenced in order to fully understand all of the detail behind a user story. This supporting
+                        information could have many forms such as a more detailed written specification, figures and
+                        models or reference material such as standards and guidelines. These cross-references would be
+                        included as part of the user story.</p>
+                    <p>People sometimes refer to epics as coarse-grained user stories that break down into fine-grained
+                        user stories.</p>
+                    <p>If the user story clearly shows the information regarding effort and value, it can make
+                        prioritization easier. A high-value feature with a low amount of effort will stand out as a
+                        priority.</p>
+                    <p>User stories evolve as understanding increases. This is why in an agile environment there is
+                        little desire to define them in detail in the early stages of a project.</p>
+                    <p>Acceptance criteria are often harder to write than they may first appear. One approach is to
+                        frame the acceptance criteria in the form of user-focused questions. For example, if you are
+                        setting acceptance criteria for a coffee mug, the following may be appropriate:</p>
+                    <blockquote class="blockquote-footer mb-0 font-italic">Can I put boiling-hot water into the mug and drink from it within five minutes by holding the mug
+                        by the handle?</blockquote>
+                    <p>Just specifying the criterion that ‘it will need to hold boiling-hot water’ doesn’t help with
+                        what the user actually wants to do (as the handle may be too hot to touch). Equally, specifying
+                        a thickness measurement in respect of the width of the mug (e.g. 2 mm) still doesn’t relate
+                        directly to the user’s need.</p>
+                    <h4>25.6.1.6 Creating user stories requires some skill</h4>
+                    <p>Creating user stories is often a lot harder than it appears. Creating good user stories and
+                        requirements are skills that can take a long time to master. Specialist roles such as
+                        requirements engineers and business analysts can add a lot of value in this area.</p>
+                    <p>On projects that normally require more than one customer representative, the need for technical
+                        specialization in the area of writing user stories and requirements may become necessary.</p>
+                    <p>It is one thing to write a user story, but another thing altogether to write a good one (see
+                        Figure 25.3).</p>
+                    <figure>
+                        <img src="images/Figure25-003.PNG" style="width: 100%;" />
+                        <figcaption>Fig 25-003 A good user story and a poor one</figcaption>
+                    </figure>
+                    <h4>25.6.1.7 Definition of ‘ready’</h4>
+                    <p>Although not as common as using the definition of ‘done’ or using acceptance criteria, the use of
+                        the definition of ‘ready’ is a practice used by many in the agile community. This is, in effect,
+                        the opposite of ‘Are we done?’, as it means ‘Are we ready?’ For example, a definition of ‘ready’
+                        could be created for a user story so that a delivery team knows that it can start working on
+                        it.</p>
+                    <p>For example, in order for a user story (in this case prior to sizing/estimation) to be considered
+                        ‘ready’, it must:</p>
+                    <ul>
+                        <li>Contain all three fields describing the who, what and why</li>
+                        <li>Be understood by the delivery team</li>
+                        <li>Have a benefit that is measurable</li>
+                        <li>Have a function that does not contain a solution</li>
+                        <li>Adhere to the INVEST guidelines</li>
+                        <li>Have acceptance criteria that are understood by the team</li>
+                        <li>Define the user as a role</li>
+                        <li>Identify any supporting documents that are relevant.</li>
+                    </ul>
+                    <h4>25.6.1.8 Technical stories</h4>
+                    <p>User stories, as the name implies, focus on the people and roles that interact with the product.
+                        This works well when we are describing what something does and what function it needs to
+                        perform. However, it doesn’t work so well when we are describing how the product works in terms
+                        of such things as performance or speed. Further to this, when a customer is describing how the
+                        product needs to work, this often applies to many features. In other words this kind of
+                        requirement can cut across several user stories.</p>
+                    <p>These kinds of requirements are often described as ‘non-functional’ and they need to be handled
+                        carefully when working in an agile environment. Fitting them into the standard user story format
+                        is possible (e.g. refer to the ‘user’ as ‘the system’) but treating them slightly differently
+                        and referring to them as technical stories is also an option.</p>
+                    <p>An example of a technical story may be when work needs to be completed on the underlying quality
+                        of the product (often called refactoring in agile) or experiments and investigations need to
+                        take place (often called prototyping or spiking in agile). Sometimes this kind of story or
+                        requirement can be included in the definition of ‘done’, but these types of story are still
+                        important as normal user stories though they may be captured in a slightly different way.</p>
+                    <h4>25.6.1.9 A means to an end</h4>
+                    <p>User stories are an effective technique when using agile. They are easy to manage, they stimulate
+                        collaboration and ultimately, when used correctly, improve communication. But always remember it
+                        is what happens around the user story that is far more important than the user story itself.</p>
+                    <h2>ACKNOWLEDGEMENTS AND FURTHER READING</h2>
+                    <p>Dai Clegg and Richard Barker (2004). Case Method Fast-Track: A RAD Approach. Addison Wesley.</p>
+                    <p>Mike Cohn (2004). User Stories Applied: For Agile Software Development. Addison Wesley.</p>
+                    <p>Lance B. Coleman, Sr. (2015). The Customer-Driven Organization: Employing the Kano Model. Apple
+                        Academic Press.</p>
+                    <p>Kent Beck: http://www.threeriversinstitute.org/blog</p>
+                    <p>Ron Jeffries: http://ronjeffries.com/</p>
+
 
                 </div>
             </div>
